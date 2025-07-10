@@ -630,7 +630,7 @@ a.dropdown-item:hover {
 .about-box i {
     font-size: 40px;
     color: white;
-    background: #e38b00;
+    background: #ed3237;
     padding: 30px;
 }
 
@@ -649,7 +649,7 @@ a.dropdown-item:hover {
 a.left-btn:before {
     position: absolute;
     content: '';
-    background: #e38b00;
+    background: #ed3237;
     width: 100%;
     height: 100%;
     left: 0;
@@ -661,7 +661,7 @@ a.left-btn:before {
 a.left-btn:after {
     position: absolute;
     content: '';
-    background: #e38b00;
+    background: #ed3237;
     width: 40px;
     height: 100%;
     top: 0;
@@ -672,7 +672,7 @@ a.left-btn:after {
 a.right-btn:before {
     position: absolute;
     content: '';
-    background: #e38b00;
+    background: #ed3237;
     width: 100%;
     height: 100%;
     left: 0;
@@ -684,7 +684,7 @@ a.right-btn:before {
 a.right-btn:after {
     position: absolute;
     content: '';
-    background: #e38b00;
+    background: #ed3237;
     width: 40px;
     height: 100%;
     top: 0;
