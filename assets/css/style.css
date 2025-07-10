@@ -311,7 +311,7 @@ a:focus {
 /*1. Top Header*/
 
 .top-header {
-    background-color: #0c0b39;
+    background-color: #ed3237;
     color: white;
 }
 
@@ -322,7 +322,7 @@ a:focus {
 
 .top-header .btn:hover {
     background: white;
-    color: #e38b00;
+    color: black;
 }
 
 .marquee {
@@ -365,7 +365,7 @@ nav {
 }
 
 .navbar-nav .nav-link {
-    color: #0c0b39;
+    color: black;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -375,11 +375,11 @@ nav {
     text-decoration: none;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient( to right, #e38b00, #e38b00 50%, #0c0b39 50%);
-    background-image: -moz-linear-gradient( to right, #e38b00, #e38b00 50%, #0c0b39 50%);
-    background-image: -ms-linear-gradient( to right, #e38b00, #e38b00 50%, #0c0b39 50%);
-    background-image: -o-linear-gradient( to right, #e38b00, #e38b00 50%, #0c0b39 50%);
-    background-image: linear-gradient( to right, #e38b00, #e38b00 50%, #0c0b39 50%);
+    background-image: -webkit-linear-gradient( to right, #de3237, #de3237 50%, black 50%);
+    background-image: -moz-linear-gradient( to right, #de3237, #de3237 50%, black 50%);
+    background-image: -ms-linear-gradient( to right, #de3237, #de3237 50%, black 50%);
+    background-image: -o-linear-gradient( to right, #de3237, #de3237 50%, black 50%);
+    background-image: linear-gradient( to right, #de3237, #de3237 50%, black 50%);
     background-size: 200% 100%;
     background-position: 100%;
 }
@@ -1130,11 +1130,11 @@ footer ul li {
 
 footer .fas {
     font-size: 20px;
-    color: #e38b00;
+    color: #ed3237;
 }
 
 footer ul li a:hover {
-    color: #e38b00;
+    color: #ed3237;
 }
 
 .address-icon .fa {
