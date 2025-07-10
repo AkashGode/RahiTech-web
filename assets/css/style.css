@@ -74,8 +74,8 @@ a:focus {
     padding: .875rem 2.75rem;
 }
 
-.theme-orange {
-    background: #e38b00;
+.theme-Red {
+    background: #ed3237;
     color: white;
 }
 
@@ -84,8 +84,13 @@ a:focus {
     color: white;
 }
 
-.color-orange {
-    color: #e38b00;
+.theme-Black {
+    background-color: black;
+    color: white;
+}
+
+.color-Red {
+    color: #ed3237;
 }
 
 .color-blue {
@@ -176,7 +181,7 @@ a:focus {
     display: block;
     font-size: 20px;
     line-height: 1.2em;
-    color: #ff9600;
+    color: #ed3237;
     font-weight: 600;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -206,7 +211,7 @@ a:focus {
     top: 9px;
     height: 1px;
     width: 52px;
-    background-color: #0c0b39;
+    background-color: #ed3237;
     content: "";
 }
 
@@ -221,7 +226,7 @@ a:focus {
 }
 
 .divider .fa {
-    color: #0c0b39;
+    color: #ed3237;
 }
 
 .bg-fill .divider .fa {
@@ -1317,7 +1322,7 @@ footer ul li a:hover {
 /*********************************Contact Page************************************/
 
 .contact-form {
-    border: 1px solid #e38b00;
+    border: 1px solid #ed3237;
     position: relative;
     padding-right: 170px !important;
 }
@@ -1329,7 +1334,7 @@ footer ul li a:hover {
 
 .contact-icon {
     margin-right: -65px;
-    background: #e38b00;
+    background: #ed3237;
     padding: 1rem;
     width: 70px;
 }
@@ -1886,7 +1891,7 @@ label {
     cursor: pointer;
     width: 50px;
     height: 50px;
-    background-color: #e38b00;
+    background-color: #ed3237;
     text-indent: -9999px;
     display: none;
     -webkit-border-radius: 60px;
