@@ -409,7 +409,7 @@ nav {
 }
 
 a.dropdown-item:hover {
-    color: #e38b00 !important;
+    color: #ed3237 !important;
 }
 
 .dropdown-item:focus,
@@ -443,7 +443,7 @@ a.dropdown-item:hover {
     z-index: 999999;
     top: 0;
     right: 0;
-    background-color: #e38b00eb;
+    background-color: #ed3237eb;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -544,7 +544,7 @@ a.dropdown-item:hover {
 }
 
 .carousel-indicators .active {
-    background: #e38b00;
+    background: #ed3237;
 }
 
 .carousel-caption {
@@ -578,11 +578,11 @@ a.dropdown-item:hover {
     -moz-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
     -ms-transition: all 0.3s linear;
-    border: 1px solid #e38b00;
+    border: 1px solid #ed3237;
 }
 
 .feature-box .fa {
-    color: #e38b00;
+    color: #ed3237;
     font-size: 30px;
 }
 
@@ -615,7 +615,7 @@ a.dropdown-item:hover {
     bottom: 0;
     width: 20%;
     height: 2px;
-    background: #e38b00;
+    background: #ed3237;
     content: "";
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -630,7 +630,7 @@ a.dropdown-item:hover {
 .about-box i {
     font-size: 40px;
     color: white;
-    background: #e38b00;
+    background: #ed3237;
     padding: 30px;
 }
 
@@ -649,7 +649,7 @@ a.dropdown-item:hover {
 a.left-btn:before {
     position: absolute;
     content: '';
-    background: #e38b00;
+    background: #ed3237;
     width: 100%;
     height: 100%;
     left: 0;
@@ -661,7 +661,7 @@ a.left-btn:before {
 a.left-btn:after {
     position: absolute;
     content: '';
-    background: #e38b00;
+    background: #ed3237;
     width: 40px;
     height: 100%;
     top: 0;
@@ -672,7 +672,7 @@ a.left-btn:after {
 a.right-btn:before {
     position: absolute;
     content: '';
-    background: #e38b00;
+    background: #ed3237;
     width: 100%;
     height: 100%;
     left: 0;
@@ -684,7 +684,7 @@ a.right-btn:before {
 a.right-btn:after {
     position: absolute;
     content: '';
-    background: #e38b00;
+    background: #ed3237;
     width: 40px;
     height: 100%;
     top: 0;
@@ -706,7 +706,7 @@ a.right-btn:after {
 }
 
 .services .card .fa {
-    color: #e38b00;
+    color: #ed3237;
 }
 
 /*7. Counter*/
@@ -717,7 +717,7 @@ a.right-btn:after {
 }
 
 .counter {
-    border: 1px solid #e38b00;
+    border: 1px solid #ed3237;
     position: relative;
     padding: 3rem;
     margin-bottom: 1.5rem;
@@ -732,7 +732,7 @@ a.right-btn:after {
     bottom: -36px;
     padding: 0.5rem;
     color: white;
-    background: #e38b00;
+    background: #ed3237;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -745,7 +745,7 @@ a.right-btn:after {
 }
 
 .counter .fa {
-    color: #e38b00;
+    color: #ed3237;
 }
 
 .margin-bottom {
@@ -846,7 +846,7 @@ a.right-btn:after {
     height: 40px;
     text-align: center;
     line-height: 40px;
-    background: #e38b00;
+    background: #ed3237;
     border-radius: 50%;
     color: #ffffff;
     margin: 4px 4px;
@@ -912,7 +912,7 @@ a.right-btn:after {
     z-index: 3;
     width: 0;
     height: 0;
-    border-left: 27px solid #e38b00;
+    border-left: 27px solid #ed3237;
     border-top: 17px solid transparent;
     border-bottom: 17px solid transparent;
 }
@@ -956,7 +956,7 @@ a.right-btn:after {
 /*14. faq accordion*/
 
 .accordion-item {
-    border: 1px solid #e38b00;
+    border: 1px solid #ed3237;
     background-color: transparent;
     border-radius: 0.375rem;
     color: white;
@@ -968,7 +968,7 @@ a.right-btn:after {
     color: white;
     border-radius: 0.375rem;
     box-shadow: unset;
-    border: 1px solid rgb(227, 139, 0) !important;
+    border: 1px solid #ed3237;
 }
 
 .accordion-button:focus {
@@ -985,7 +985,7 @@ a.right-btn:after {
 }
 
 .accordion-button:not(.collapsed) {
-    background-color: #e38b00;
+    background-color: #ed3237;
     color: white;
 }
 
@@ -1047,7 +1047,7 @@ a.right-btn:after {
 }
 
 .read-more {
-    border: 1px solid #e38b00;
+    border: 1px solid #ed3237;
     border-radius: 22px;
     font-size: 15px;
 }
@@ -1168,7 +1168,7 @@ footer ul li a:hover {
 }
 
 .about-img .img_1 {
-    border: 1px solid rgb(227, 139, 0);
+    border: 1px solid #ed3237;
     position: relative;
     max-width: fit-content;
     padding: 1rem;
@@ -1179,7 +1179,7 @@ footer ul li a:hover {
     right: 25%;
     bottom: 35px;
     padding: 1rem;
-    background: #e38b00;
+    background: #ed3237;
     justify-content: space-between;
     width: 200px;
 }
@@ -1256,16 +1256,16 @@ footer ul li a:hover {
 }
 
 .timeline .slick-center .fa {
-    color: #e38b00;
+    color: #ed3237;
     position: relative;
-    border: 1px solid #e38b00;
+    border: 1px solid #ed3237;
     border-radius: 50%;
     padding: 0.5rem;
 }
 
 .timeline .slick-center h3 {
     font-weight: bold;
-    color: #e38b00;
+    color: #ed3237;
 }
 
 .timeline .slick-prev,
@@ -1378,7 +1378,7 @@ label {
 .border-box {
     position: relative;
     height: 170px;
-    border: 1px solid #e38b00;
+    border: 1px solid #ed3237;
 }
 
 .career-form {
@@ -1386,7 +1386,7 @@ label {
 }
 
 .career-form {
-    border: 1px solid #e38b00;
+    border: 1px solid #ed3237;
     position: relative;
     z-index: 1;
 }
@@ -1443,7 +1443,7 @@ label {
     right: 0px;
     top: 10px;
     position: absolute;
-    color: #e38b00;
+    color: #ed3237;
     padding-right: 10px;
 }
 
@@ -1466,7 +1466,7 @@ label {
 
 #filters li {
     float: left;
-    border: 2px solid #e38b00;
+    border: 2px solid #ed3237;
     margin-right: 1rem;
     border-radius: 17px;
     font-size: 16px;
@@ -1476,12 +1476,12 @@ label {
     display: block;
     padding: 5px 20px;
     text-decoration: none;
-    color: #e38b00;
+    color: #ed3237;
     cursor: pointer;
 }
 
 #filters li span.active {
-    background: #e38b00;
+    background: #ed3237;
     color: #fff;
     border-radius: 10px;
 }
@@ -1517,14 +1517,14 @@ label {
     width: 100%;
     height: 100%;
     z-index: 0;
-    background: #e38b009e;
+    background: #ed32379e;
     top: 0;
     right: 0;
     opacity: 0;
 }
 
 .portfolio .label-bg {
-    background: #e38b009e;
+    background: #ed32379e;
 }
 
 .portfolio .label-text {
@@ -1608,12 +1608,12 @@ label {
     top: 37%;
     height: 4px;
     left: 0;
-    background: #e38b00;
+    background: #ed3237;
 }
 
 .img-block {
     position: relative;
-    border: 1px solid #e38b00;
+    border: 1px solid #ed3237;
     height: 365px;
     width: 355px;
     float: right;
@@ -1641,7 +1641,7 @@ label {
 
 .team-image {
     position: relative;
-    border: 1px solid #e38b00;
+    border: 1px solid #ed3237;
 }
 
 .team-image img {
@@ -1724,7 +1724,7 @@ label {
 
 .slick-prev,
 .slick-next {
-    background: #e38b00 !important;
+    background: #ed3237 !important;
     height: 40px !important;
     width: 40px !important;
     top: unset;
@@ -1769,8 +1769,8 @@ label {
     margin: 5px;
     padding: 15px 50px;
     font-size: 16px;
-    color: #e38b00;
-    border: 1px solid #e38b00;
+    color: #ed3237;
+    border: 1px solid #ed3237;
 }
 
 .nav .nav-link {
@@ -1779,12 +1779,12 @@ label {
 
 .course .nav a:hover {
     color: white;
-    background: #e38b00;
+    background: #ed3237;
 }
 
 .course .nav .active {
     color: white;
-    background: #e38b00;
+    background: #ed3237;
 }
 
 .course-desc .btn:hover {
@@ -1824,7 +1824,7 @@ label {
 
 .student-desc {
     position: relative;
-    border: 1px solid #e38b00;
+    border: 1px solid #ed3237;
     padding: 0 2rem;
     margin-top: 1rem;
 }
@@ -1866,7 +1866,7 @@ label {
 
 .contact-us-block {
     position: relative;
-    border: 1px solid #e38b00;
+    border: 1px solid #ed3237;
     height: 400px;
 }
 
@@ -1924,7 +1924,7 @@ label {
 }
 
 #scroll:hover span {
-    border-bottom-color: #e38b00;
+    border-bottom-color: #ed3237;
 }
 
 /*media query*/
@@ -1994,7 +1994,7 @@ label {
         position: absolute;
         bottom: -28px;
         padding: 0.5rem;
-        background: #e38b00;
+        background: #ed3237;
         max-width: 100px;
         font-size: 20px;
     }
