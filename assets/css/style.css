@@ -1769,8 +1769,8 @@ label {
     margin: 5px;
     padding: 15px 50px;
     font-size: 16px;
-    color: #e38b00;
-    border: 1px solid #e38b00;
+    color: #ed3237;
+    border: 1px solid #ed3237;
 }
 
 .nav .nav-link {
@@ -1779,12 +1779,12 @@ label {
 
 .course .nav a:hover {
     color: white;
-    background: #e38b00;
+    background: #ed3237;
 }
 
 .course .nav .active {
     color: white;
-    background: #e38b00;
+    background: #ed3237;
 }
 
 .course-desc .btn:hover {
