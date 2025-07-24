@@ -5,10 +5,6 @@
       "CourseShortName": "Java",
       "CourseIncludes": {
         "Duration": "6 Months",
-        "Sessions": {
-          "Weekdays": 4,
-          "Weekends": 2
-        },
         "Prerequisites": [
           {
             "P": "There is no such Prerequisites for this course."
@@ -35,10 +31,6 @@
       "CourseShortName": "C#",
       "CourseIncludes": {
         "Duration": "5 Months",
-        "Sessions": {
-          "Weekdays": 4,
-          "Weekends": 2
-        },
         "Prerequisites": [
           {
             "P": "Basic understanding of programming concepts is helpful."
@@ -65,10 +57,6 @@
       "CourseShortName": "Angular",
       "CourseIncludes": {
         "Duration": "3 Months",
-        "Sessions": {
-          "Weekdays": 3,
-          "Weekends": 1
-        },
         "Prerequisites": [
           {
             "P": "Basic knowledge of HTML, CSS, and JavaScript."
