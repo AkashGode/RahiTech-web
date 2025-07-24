@@ -1,0 +1,33 @@
+{
+    "AllCourseDetails" : {
+        "CourseFullName" : "Java Full Stack Development",
+        "CourseShortName" : "Java",
+        "CourseIncludes" : {
+            "Duration" : "6 Months",
+            "Sessions" : {
+                "Weekdays" : 4,
+                "Weekends" : 4
+            },
+            "Prerequisites" : [
+                {
+                    "P1" : "There is no such Prerequisites for this course."
+                },
+                {
+                    "P2" : "Basic computer knowledge will be advantage."
+                }
+            ],
+            "Topics" : [
+                {
+                    "Name" : "",
+                    "Image" : ""
+                }
+            ]
+        },
+        "CourseDetails" : [
+                {
+                    "Heading" : "Comprehensive Curriculum",
+                    "Details" : "Java Classes in Pune at ITView deliver a curriculum based on real-world industry standards to train students in Core Java while covering Spring Boot, Hibernate, Angular, React and MySQL and MongoDB database operations."
+                }
+            ]
+    }
+}
