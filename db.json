@@ -1,0 +1,93 @@
+{
+  "AllCourseDetails": {
+    "Java": {
+      "CourseFullName": "Java Full Stack Development",
+      "CourseShortName": "Java",
+      "CourseIncludes": {
+        "Duration": "6 Months",
+        "Sessions": {
+          "Weekdays": 4,
+          "Weekends": 2
+        },
+        "Prerequisites": [
+          {
+            "P": "There is no such Prerequisites for this course."
+          },
+          {
+            "P": "Basic computer knowledge will be advantage."
+          }
+        ]
+      },
+      "CourseDetails": [
+        {
+          "Heading": "Comprehensive Curriculum",
+          "Details": "Java Classes in Pune at ITView deliver a curriculum based on real-world industry standards to train students in Core Java while covering Spring Boot, Hibernate, Angular, React and MySQL and MongoDB database operations."
+        },
+        {
+          "Heading": "Comprehensive Curriculum",
+          "Details": "Java Classes in Pune at ITView deliver a curriculum based on real-world industry standards to train students in Core Java while covering Spring Boot, Hibernate, Angular, React and MySQL and MongoDB database operations."
+        }
+      ]
+    },
+
+    "C#": {
+      "CourseFullName": "C# & .NET Full Stack Development",
+      "CourseShortName": "C#",
+      "CourseIncludes": {
+        "Duration": "5 Months",
+        "Sessions": {
+          "Weekdays": 4,
+          "Weekends": 2
+        },
+        "Prerequisites": [
+          {
+            "P": "Basic understanding of programming concepts is helpful."
+          },
+          {
+            "P": "Familiarity with Windows OS."
+          }
+        ]
+      },
+      "CourseDetails": [
+        {
+          "Heading": "Industry-Ready .NET Curriculum",
+          "Details": "C# training covers .NET Core, ASP.NET MVC, Entity Framework, SQL Server, and Blazor, preparing students for real-world enterprise applications."
+        },
+        {
+          "Heading": "Hands-on Projects",
+          "Details": "Students will build multiple projects including web apps and desktop software to reinforce learning and apply knowledge."
+        }
+      ]
+    },
+
+    "Angular": {
+      "CourseFullName": "Frontend Development with Angular",
+      "CourseShortName": "Angular",
+      "CourseIncludes": {
+        "Duration": "3 Months",
+        "Sessions": {
+          "Weekdays": 3,
+          "Weekends": 1
+        },
+        "Prerequisites": [
+          {
+            "P": "Basic knowledge of HTML, CSS, and JavaScript."
+          },
+          {
+            "P": "Familiarity with TypeScript is a plus but not mandatory."
+          }
+        ]
+      },
+      "CourseDetails": [
+        {
+          "Heading": "Modern Angular Development",
+          "Details": "Covers Angular architecture, components, directives, services, routing, forms, and state management using RxJS and NgRx."
+        },
+        {
+          "Heading": "Real-time Projects",
+          "Details": "Includes mini-projects and a final capstone project to apply Angular concepts in real-world scenarios."
+        }
+      ]
+    }
+  }
+}

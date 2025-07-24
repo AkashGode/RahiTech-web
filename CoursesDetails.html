@@ -151,7 +151,7 @@
         <!-- end side menu -->
         <!-- start inner-banner -->
         <section class="inner-banner">
-            <h1 class="fw-bold text-center">Course</h1>
+            <h1 class="fw-bold text-center" id="CourseName"></h1>
         </section>
         <!-- end inner-banner -->
 
@@ -276,14 +276,15 @@
 
         <div class="container mb-4">
             <div class="row">
-                <div class="col">
+                <div class="col-xl-6">
 
-                    <h1>Overview of Java Full Stack Development Course by ITView </h1>
+                    <h1>Overview of <span id="CourseFullName"></span> Course by ITView </h1>
                     <div class="elementor-widget-container">
-                        <p><b>Comprehensive Curriculum</b></p>
+                        <div id="CourseDetails"></div>
+                        <!-- <p><b>Comprehensive Curriculum</b></p>
                         <p><span style="font-weight: 400;">Java Classes in Pune at ITView deliver a curriculum based on
                                 real-world industry standards to train students in Core Java while covering Spring Boot,
-                                Hibernate, Angular, React and MySQL and MongoDB database operations.</span></p>
+                                Hibernate, Angular, React and MySQL and MongoDB database operations.</span></p> -->
                         <!-- <p><b>Hands-On Learning</b><span style="font-weight: 400;"><br></span></p>
                         <p><span style="font-weight: 400;">Real-world learning takes focus as a central component within
                                 this Java Course in Pune. Through end-to-end web application development projects you
@@ -335,7 +336,7 @@
 
                 </div>
                 <div class="col">
-                    <h1>Who can apply for the course?</h1>
+                    <h1>Who can apply for the <span id="CourseNames"></span> course?</h1>
 
                     <span>
 
@@ -381,51 +382,68 @@
 
                 <div class="row">
                 
-                    <div class="elementor-widget-container">
-									<p><strong>Duration :</strong> 6 months</p><p><strong>Sessions :</strong></p><ul><li>Weekdays – 4 per week</li><li>Weekends – 2 per week</li></ul><p><strong>Prerequisites :</strong></p><ul><li>There is no such Prerequisites for this course.</li><li>Basic computer knowledge will be advantage.</li></ul><div><strong>Topics:</strong></div>								</div>
+                    <div class="elementor-widget-container" id="CourseIncludes" >
+									<!-- <p><strong>Duration :</strong> 6 months</p>
+                                    <p><strong>Sessions :</strong></p>
+                                    <ul>
+                                        <li>Weekdays – 4 per week</li>
+                                        <li>Weekends – 2 per week</li>
+                                    </ul><p><strong>Prerequisites :</strong></p>
+                                    <ul>
+                                        <li>There is no such Prerequisites for this course.</li>
+                                        <li>Basic computer knowledge will be advantage.</li>
+                                    </ul>							 -->
+                    </div>
 
                 </div>
+                    <div class="row text-left">
+                        <div><strong>Topics:</strong></div>
+                    </div>	
                  
                <div class="row">
                  
-                <div class="col px-5 py-5 col-Corse">
-                    <div class="col-icon">
-                        <i class="fa fa-unlock" aria-hidden="true"></i>
+                <div class="col col-Corse">
+                    <div class="row">
+                        <div class="col-sm-4 col-lg-3 col-xl-2 p-5">
+                        <div class="col-icon">
+                            <i class="fa fa-unlock" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            Java
+                        </div>
                     </div>
-                    <div>
-                        Java
+                    <div class="col-sm-4 col-lg-3 col-xl-2 p-5">
+                        <div class="col-icon">
+                            <i class="fa fa-unlock" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            Java
+                        </div>
                     </div>
-                </div>
-                <div class="col px-5 py-5 col-Corse">
-                    <div class="col-icon">
-                        <i class="fa fa-unlock" aria-hidden="true"></i>
+                    <div class="col-sm-4 col-lg-3 col-xl-2 p-5">
+                        <div class="col-icon">
+                            <i class="fa fa-unlock" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            Java
+                        </div>
                     </div>
-                    <div>
-                        Java
+                    <div class="col-sm-4 col-lg-3 col-xl-2 p-5">
+                        <div class="col-icon">
+                            <i class="fa fa-unlock" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            Java
+                        </div>
                     </div>
-                </div>
-                <div class="col px-5 py-5 col-Corse">
-                    <div class="col-icon">
-                        <i class="fa fa-unlock" aria-hidden="true"></i>
+                    <div class="col-sm-4 col-lg-3 col-xl-2 p-5">
+                        <div class="col-icon">
+                            <i class="fa fa-unlock" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            Java
+                        </div>
                     </div>
-                    <div>
-                        Java
-                    </div>
-                </div>
-                <div class="col px-5 py-5 col-Corse">
-                    <div class="col-icon">
-                        <i class="fa fa-unlock" aria-hidden="true"></i>
-                    </div>
-                    <div>
-                        Java
-                    </div>
-                </div>
-                <div class="col px-5 py-5 col-Corse">
-                    <div class="col-icon">
-                        <i class="fa fa-unlock" aria-hidden="true"></i>
-                    </div>
-                    <div>
-                        Java
                     </div>
                 </div>
                </div>
@@ -697,6 +715,58 @@
                 });
             })
             .catch(err => console.error('Image API error:', err));
+    </script>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const coursekey = params.get('course');
+
+        fetch('db.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                var details = data.AllCourseDetails[coursekey];
+                var CourseIncludes = details.CourseIncludes;
+                let CourseDetails = '';
+                let Sessions = '';
+                let Prerequisites = '';
+                let Topics = '';
+
+                details.CourseDetails.forEach(element => {
+                    CourseDetails += `<p><b>${element.Heading}</b></p>
+                             <p><span style="font-weight:400">${element.Details}</span></p>`;
+                });
+
+                CourseIncludes.Prerequisites.forEach(e => {
+                                Prerequisites += `<li>${e.P}</li>`;
+                            })
+                
+                let CourseIncludeshtml = 
+                `
+                    <p><strong>Duration : </strong> ${CourseIncludes.Duration} </p>
+                    <p><strong>Sessions : </strong></p>
+                    <ul>
+                        <li>Weekdays: ${CourseIncludes.Sessions.Weekdays}</li>
+                        <li>Weekdays: ${CourseIncludes.Sessions.Weekends}</li>
+                    </ul>
+                    <p><strong>Prerequisites : </strong> </p>
+                    <ul> ${Prerequisites} </ul>
+
+                `;
+
+                document.getElementById('CourseFullName').innerText = details.CourseFullName;
+                document.getElementById('CourseDetails').innerHTML = CourseDetails;
+                document.getElementById('CourseIncludes').innerHTML = CourseIncludeshtml;
+                document.getElementById('CourseName').innerText = details.CourseFullName;
+                document.getElementById('CourseNames').innerText = details.CourseFullName;
+            })
+            .catch(error => {
+                console.error('Error loading JSON:', error);
+            });
     </script>
 
 </body>
