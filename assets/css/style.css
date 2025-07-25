@@ -233,6 +233,17 @@ a:focus {
     color: white;
 }
 
+.course-outline-box {
+  border-bottom: 3px solid red;
+}
+
+@media (min-width: 992px) {
+  .course-outline-box {
+    border-bottom: none;
+    border-right: 3px solid red;
+  }
+}
+
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
