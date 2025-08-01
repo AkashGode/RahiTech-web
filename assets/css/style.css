@@ -655,9 +655,11 @@ a.dropdown-item:hover {
     display: inline-block;
     line-height: 60px;
     margin: 0 4px;
+    cursor: pointer;
 }
 
-a.left-btn:before {
+.left-btn:before,
+.right-btn:before {
     position: absolute;
     content: '';
     background: #ed3237;
@@ -669,7 +671,7 @@ a.left-btn:before {
     transform: skew(-30deg, 0deg);
 }
 
-a.left-btn:after {
+.left-btn:after {
     position: absolute;
     content: '';
     background: #ed3237;
@@ -680,19 +682,7 @@ a.left-btn:after {
     z-index: -1;
 }
 
-a.right-btn:before {
-    position: absolute;
-    content: '';
-    background: #ed3237;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    z-index: -1;
-    transform: skew(-30deg, 0deg);
-}
-
-a.right-btn:after {
+.right-btn:after {
     position: absolute;
     content: '';
     background: #ed3237;
@@ -2241,4 +2231,31 @@ label {
     .carousel-caption {
         top: 10px;
     }
+}
+#TopicsData {
+    max-height: 400px; 
+    overflow-y: auto;
+}
+#TopicsData::-webkit-scrollbar {
+    width: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: red; 
 }
