@@ -25,10 +25,9 @@
         }
       ]
     },
-
-    "C#": {
-      "CourseFullName": "C# & .NET Full Stack Development",
-      "CourseShortName": "C#",
+    "DotNet": {
+      "CourseFullName": ".NET Full Stack Development",
+      "CourseShortName": "DFS",
       "CourseIncludes": {
         "Duration": "5 Months",
         "Prerequisites": [
@@ -38,20 +37,344 @@
           {
             "P": "Familiarity with Windows OS."
           }
-        ]
+        ],
+        "Topics": []
       },
       "CourseDetails": [
         {
-          "Heading": "Industry-Ready .NET Curriculum",
-          "Details": "C# training covers .NET Core, ASP.NET MVC, Entity Framework, SQL Server, and Blazor, preparing students for real-world enterprise applications."
+          "Heading": ".NET Language Importance",
+          "SubPoints": [
+            "Syntactically Simple",
+            "Object Oriented",
+            "Platform Independent",
+            "Dynamic Memory Management",
+            "Compiled / Interpreted approach",
+            "Security",
+            "Dynamic Linking",
+            "Multi-Threading",
+            "Built-in Networking",
+            "Basic knowledge of HTML, CSS, Javascript or any programming language"
+          ]
         },
         {
-          "Heading": "Hands-on Projects",
-          "Details": "Students will build multiple projects including web apps and desktop software to reinforce learning and apply knowledge."
+          "Heading": ".NET Course syllabus",
+          "SubPoints": [
+            "Introduction to .NET Framework",
+            ".NET Advantages",
+            "Common Language Runtime(CLR)",
+            "Common Type System (CTS)",
+            ".NET Framework Class Library (FCL)",
+            "Microsoft Intermediate Language(MSIL)",
+            "Just In Time(JIT) Compiler",
+            "Garbage Collection",
+            "Phases of Garbage Collection"
+          ]
+        },
+        {
+          "Heading": "Programming With C#",
+          "SubPoints": [
+            "Introduction of C#",
+            "Language features",
+            "Structure of a C# program",
+            "C# Tokens",
+            "Data Types",
+            "Variables and Expressions",
+            "Operators",
+            "Typecasting",
+            "Implicit Typecasting",
+            "Explicit Typecasting",
+            "Boxing and UnBoxing",
+            "Flow Control",
+            "Conditions",
+            "Loops",
+            "Functions",
+            "Defining Functions",
+            "Function Elements",
+            "Types Of Functions",
+            "User-defined",
+            "System-defined",
+            "Passing Parameters",
+            "By Value",
+            "By Reference",
+            "Using 'out'",
+            "Using 'params'",
+            "Function Overloading",
+            "Function Overriding",
+            "Arrays",
+            "Features of Array",
+            "Accessing Array Elements",
+            "Type of Array",
+            "Single Dimensional",
+            "Multi-dimensional",
+            "Jaggeds"
+          ]
+        },
+        {
+          "Heading": "Object Oriented programming",
+          "SubPoints": [
+            "Object Oriented Programming Concepts",
+            "Advantages of OOP",
+            "Pillars of OOP",
+            "Abstraction",
+            "Inheritance",
+            "Polymorphism",
+            "Compile time polymorphism",
+            "Run-time polymorphism",
+            "Encapsulation",
+            "What is a Class?",
+            "Defining classes & class members",
+            "Implementation of Classes",
+            "Access modifiers",
+            "public",
+            "private",
+            "protected",
+            "internal",
+            "protected internal",
+            "Class Constructors",
+            "Class Destructors",
+            "Interfaces",
+            "Declaring & Using Interfaces",
+            "Interface Inheritance",
+            "Interfaces v/s Abstract classes"
+          ]
+        },
+        {
+          "Heading": "Collection framework",
+          "SubPoints": [
+            "What is a Collection Framework?",
+            "Classes in Collection Framework",
+            "ArrayList",
+            "Hashtable",
+            "SortedList",
+            "Stack",
+            "Queue"
+          ]
+        },
+        {
+          "Heading": "Inheritance",
+          "SubPoints": [
+            "What is Inheritance",
+            "Advantages of Inheritance",
+            "Types of Inheritance",
+            "Single",
+            "Heriarchical",
+            "Multi-level",
+            "Hybrid",
+            "Multiple",
+            "Method Overriding"
+          ]
+        },
+        {
+          "Heading": "Handling Exceptions in C#",
+          "SubPoints": [
+            "Introduction to Exceptions",
+            "Exception handling",
+            "The Exception Class",
+            "C# Exception Handling Keywords",
+            "The Exception Chain",
+            "Exception Heirarchy",
+            "Pre-defined Exception Classes",
+            "Catching Specific Exceptions",
+            "Throwing Objects",
+            "User Defined Exceptions"
+          ]
+        },
+        {
+          "Heading": "Delegates and Events in C#",
+          "SubPoints": [
+            "What are Delegates",
+            "Delegate Declaration",
+            "Instantiating Delegates",
+            "How to Call a Delegate",
+            "Types of Delegates",
+            "Single Cast Delegate",
+            "Multicast Delegate",
+            "Introduction to Events",
+            "Event Declaration",
+            "Delegates With Events",
+            "Publishers",
+            "Subscribers"
+          ]
+        },
+        {
+          "Heading": "ASP.NET",
+          "SubPoints": [
+            "Introduction of ASP.NET",
+            "Concept of Web Applications",
+            "ASP.NET Architecture",
+            "Page Composition Parts",
+            "ASP.NET Page Life Cycle",
+            "Page Life Cycle Events"
+          ]
+        },
+        {
+          "Heading": "ASP.NET Controls",
+          "SubPoints": [
+            "ASP.NET Server Controls",
+            "HTML Server Controls",
+            "Web Server Controls",
+            "Validation Controls",
+            "User define Controls"
+          ]
+        },
+        {
+          "Heading": "Styles & Themes",
+          "SubPoints": [
+            "What are Themes?",
+            "Applying Themes",
+            "Types of Themes",
+            "Inline",
+            "Embedded",
+            "External"
+          ]
+        },
+        {
+          "Heading": "Master and Content Pages",
+          "SubPoints": [
+            "What are Master & Content pages?",
+            "Advantages of Master Pages",
+            "Linking Content & Master Pages",
+            "Working of Master pages",
+            "The System.Web.WebPages.DynamicPageDataDictionary `[System.Object]` directive",
+            "Nested Master Pages"
+          ]
+        },
+        {
+          "Heading": "Navigation",
+          "SubPoints": [
+            "What is Navigation?",
+            "Types of Navigation",
+            "SiteMapPath control",
+            "TreeView control",
+            "Menu control"
+          ]
+        },
+        {
+          "Heading": "MS SQL Server",
+          "SubPoints": [
+            "Introduction to RDBMS",
+            "Features of RDBMS",
+            "Introduction to SQL",
+            "Creating Database objects",
+            "Managing & Handling Database Objects",
+            "SQL Server Languages",
+            "Keys & Constraints",
+            "Working with Operators",
+            "Working with Clause (Order By, Compute By, etc.)",
+            "Aggregate Functions",
+            "SQL Joins",
+            "Inner Join",
+            "Outer Join",
+            "Cross join",
+            "Equi Join",
+            "Self Join",
+            "Subquery",
+            "Stored Procedures"
+          ]
+        },
+        {
+          "Heading": "ADO.Net",
+          "SubPoints": [
+            "ADO.NET Object Model",
+            "ADO.NET Components",
+            "Perform Connectivity With Web Forms",
+            "Insert, Update, Delete Operations using Data Source Controls",
+            "Data Binding in ASP.Net",
+            "Working With GridView Control",
+            "Data bound controls"
+          ]
+        },
+        {
+          "Heading": "Introduction of LINQ",
+          "SubPoints": [
+            "Introduction of LINQ",
+            "Features of LINQ",
+            "LINQ Architecture",
+            "Advantages of LINQ",
+            "DataContext in LINQ",
+            "LINQ Queries",
+            "Standard Query operators",
+            "LINQ to ADO.NET",
+            "LINQ to XML",
+            "Lambda Expressions"
+          ]
+        },
+        {
+          "Heading": "State Management in ASP.NET",
+          "SubPoints": [
+            "What is State Management?",
+            "Client-side state management",
+            "Server-side state management",
+            "Using View State",
+            "Session & Application State",
+            "Using cookies & URL Encoding",
+            "Transient Cookie?",
+            "Persistent Cookie",
+            "ASP .Net Web Application Security",
+            "Authentication overview",
+            "Authorization overview",
+            "Caching",
+            "What & Why of Caching",
+            "Output Caching",
+            "Data Caching",
+            "Fragment Caching"
+          ]
+        },
+        {
+          "Heading": "AJAX Technology",
+          "SubPoints": [
+            "What is AJAX?",
+            "Features of AJAX",
+            "Pros & Cons of AJAX",
+            "AJAX Architecture",
+            "AJAX Extension Controls",
+            "Script Manager",
+            "Update Panel Control",
+            "Update Progress",
+            "Timer",
+            "ASP.NET AJAX Control Toolkit",
+            "Creating AJAX Application Using ASP.NET"
+          ]
+        },
+        {
+          "Heading": "Security",
+          "SubPoints": [
+            "What is Authentication and Authorization?",
+            "Windows Authentication",
+            "Forms Authentication",
+            "Passport Authentication",
+            "Anonymous Authentication",
+            "Securing pages & folders",
+            "Roles Management",
+            "Creating & Authenticating Roles",
+            "Creating & Authenticating Users Using Membership"
+          ]
+        },
+        {
+          "Heading": "ASP.NET MVC",
+          "SubPoints": [
+            "Introduction to .Net MVC Framework",
+            "MVC Framework Features",
+            "MVC Architecture",
+            "MVC Components",
+            "MVC Application Folders",
+            "Configuration files",
+            "Working with Views",
+            "Routing",
+            "View Engines",
+            "HTML Helpers",
+            "Working with Controls",
+            "Validations",
+            "Data Annotation",
+            "Filters",
+            "Types of Filters",
+            "Layout",
+            "Scaffold Template",
+            "Entity Framework"
+          ]
         }
       ]
     },
-
     "Angular": {
       "CourseFullName": "Frontend Development with Angular",
       "CourseShortName": "Angular",
@@ -69,11 +392,11 @@
       "CourseDetails": [
         {
           "Heading": "Modern Angular Development",
-          "Details": "Covers Angular architecture, components, directives, services, routing, forms, and state management using RxJS and NgRx."
+          "SubPoints": ["Covers Angular architecture, components, directives, services, routing, forms, and state management using RxJS and NgRx."]
         },
         {
           "Heading": "Real-time Projects",
-          "Details": "Includes mini-projects and a final capstone project to apply Angular concepts in real-world scenarios."
+          "SubPoints": ["Includes mini-projects and a final capstone project to apply Angular concepts in real-world scenarios."]
         }
       ]
     }

@@ -229,8 +229,8 @@
             <h5 class="pt-3">Ganesh Lad</h5>
             <p>Founrder & Chairman</p>
             <div class="button-box">
-                <a href="about.html" class="left-btn">More About Us</a>
-                <a href="contact.html" class="right-btn">Contact Us</a>
+                <div class="left-btn">More About Us</div>
+                <div class="right-btn">Contact Us</div>
             </div>
         </div>
     </section>
@@ -497,7 +497,7 @@
                                     </li>
                                     <li class="pe-3">
                                         <i class="ti-alarm-clock pe-2"></i>
-                                        <span>5.00pm - 7.00pm</span>
+                                        <span>11.00 AM - 2.00 PM</span>
                                     </li>
                                     <li class="pe-3">
                                         <i class="ti-location-arrow pe-2"></i>
@@ -940,11 +940,15 @@
     //   alert("Today is :- "+ new Date());
 
 
+  document.addEventListener("DOMContentLoaded", function () {
+      document.querySelector('.left-btn')?.addEventListener('click', function () {
+          console.log('clicked');
+      });
 
-
-
-
-
+      document.querySelector('.right-btn')?.addEventListener('click', function () {
+          console.log('contact clicked');
+      });
+  });
 
 </script>
 <!-- ===============jQuery Frameworks============= -->
