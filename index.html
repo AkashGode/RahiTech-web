@@ -22,6 +22,12 @@
     <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="assets/css/themify-icons.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        img{
+            image-orientation: flip;
+        }
+    </style>
 </head>
 <!--start preloader-->
 <div class="preloader">
@@ -126,7 +132,7 @@
         </ul>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/images/banner_1.jpg" alt="education" class="img-fluid">
+                <img src="assets/images/slider-7.jpg" alt="education" class="img-fluid">
                 <div class="carousel-caption animated fadeInLeft delay-0.5s">
                     <h1 class="fw-bold">An investment in knowledge pays the best interest.</h1>
                     <h6 class="banner-desc">We had such a great time in Education</h6>
@@ -134,7 +140,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="assets/images/RahiTech-owner.jpg" alt="education" class="img-fluid">
+                <img src="assets/images/slider-8.jpeg" alt="education" class="img-fluid">
                 <div class="carousel-caption animated fadeInUp delay-0.5s">
                     <h1 class="fw-bold">Education is what remains after one has forgotten what one has learned in
                         school.</h1>
@@ -143,7 +149,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="assets/images/Rahitech-owner-2.jpg" alt="education" class="img-fluid">
+                <img src="assets/images/slider-9.jpeg" alt="education" class="img-fluid">
                 <div class="carousel-caption animated fadeInDown delay-0.5s">
                     <h1 class="fw-bold">Education is not the filling of a pail, but the lighting of a fire.</h1>
                     <h6 class="banner-desc">We had such a great time in Education</h6>
@@ -151,7 +157,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="assets/images/Rahitech-owner-3.jpg" alt="education" class="img-fluid">
+                <img src="assets/images/slider-10.jpg" alt="education" class="img-fluid">
                 <div class="carousel-caption animated zoomIn delay-0.5s">
                     <h1 class="fw-bold">Education is not preparation for life; education is life itself.</h1>
                     <h6 class="banner-desc">We had such a great time in Education</h6>
@@ -411,10 +417,10 @@
                             <div class="row">
                                 <div class="mb-3 col-lg-8 col-md-12">
                                     <input type="text" class="form-control"
-                                        placeholder="What do you want to learn today?">
+                                        placeholder="What do you want to learn today?" id="FormCourses">
                                 </div>
                                 <div class="mb-3 col-lg-4 col-md-12">
-                                    <button type="submit" class="btn theme-btn theme-Red mb-2 get-course">Get Course
+                                    <button type="button" class="btn theme-btn theme-Red mb-2 get-course" onclick="GetCourse()">Get Course
                                     </button>
                                 </div>
                             </div>
@@ -497,7 +503,7 @@
                                     </li>
                                     <li class="pe-3">
                                         <i class="ti-alarm-clock pe-2"></i>
-                                        <span>5.00pm - 7.00pm</span>
+                                        <span>11.00Am - 5.00pm</span>
                                     </li>
                                     <li class="pe-3">
                                         <i class="ti-location-arrow pe-2"></i>
@@ -520,7 +526,7 @@
                                     </li>
                                     <li class="pe-3">
                                         <i class="ti-alarm-clock pe-2"></i>
-                                        <span>5.00pm - 7.00pm</span>
+                                        <span>11.00Am - 5.00pm</span>
                                     </li>
                                     <li class="pe-3">
                                         <i class="ti-location-arrow pe-2"></i>
@@ -543,7 +549,7 @@
                                     </li>
                                     <li class="pe-3">
                                         <i class="ti-alarm-clock pe-2"></i>
-                                        <span>5.00pm - 7.00pm</span>
+                                        <span>11.00Am - 5.00pm</span>
                                     </li>
                                     <li class="pe-3">
                                         <i class="ti-location-arrow pe-2"></i>
@@ -938,6 +944,17 @@
     }
 
     //   alert("Today is :- "+ new Date());
+
+
+
+     function GetCourse(){
+        let course = document.getElementById('FormCourses').value;
+
+    //  alert("Course is "+ course);
+
+     window.location.href = "CoursesDetails.html?course="+encodeURIComponent(course);
+
+     }
 
 
 
