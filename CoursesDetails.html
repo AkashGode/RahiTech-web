@@ -119,7 +119,7 @@
         <!-- end side menu -->
         <!-- start inner-banner -->
         <section class="inner-banner">
-            <h1 class="fw-bold text-center" id="CourseName">Course Name</h1>
+            <h1 class="fw-bold text-center CourseNames">Course Name</h1>
         </section>
         <!-- end inner-banner -->
 
@@ -158,7 +158,7 @@
                                 <div class="counter-img">
                                     <img src="assets/images/icons/Passing-Warranty.png" class="img-fluid" alt="career">
                                 </div>
-                                <h5 class="count-text mt-2">100% Passing Warranty</h5>
+                                <h5 class="count-text mt-2">100% Placement <br> Guarantee </h5>
                                 <h2 class="timer count-title count-number" data-to="11900" data-speed="1500">11,900</h2>
                             </div>
                         </div>
@@ -248,7 +248,7 @@
   <div class="row justify-content-center text-center mb-4">
     <div class="col-lg-10">
       <h1 class="display-6 fw-bold text-danger mb-3">
-        Explore the <span id="CourseFullName" class="text-dark">[Course Name]</span> Course with ITView
+        Explore the <span class="text-dark CourseNames">[Course Name]</span> Course with ITView
       </h1>
       <p class="lead text-muted">
         Upgrade your skills with our expertly curated curriculum. Hands-on projects, career guidance, and the latest tools to make you industry-ready.
@@ -259,11 +259,11 @@
   <div class="row justify-content-center">
     <div class="col-lg-10">
       <div class="bg-white p-4 rounded-3 shadow-sm border-start border-4 border-danger">
-        <h5 class="mb-3 text-dark fw-semibold">
+        <h5 class="mb-3 text-dark fs-2 fw-bold">
           <i class="fa fa-book-open text-primary me-2"></i> What You’ll Learn
         </h5>
-        <div id="CourseDetails" class="text-secondary small">
-          <!-- Dynamic content will appear here -->
+        <!-- <div id="CourseDetails" class="text-secondary small">
+           !-- Dynamic content will appear here --
           <ul class="mb-0">
             <li>Core Programming Skills</li>
             <li>Frontend and Backend Technologies</li>
@@ -271,7 +271,8 @@
             <li>Live Project Work</li>
             <li>Interview and Resume Preparation</li>
           </ul>
-        </div>
+        </div> -->
+        <div class="container-fluid" id="TopicsData"></div>
       </div>
     </div>
   </div>
@@ -288,9 +289,8 @@
         <div class="container my-5">
             <div class="row">
                 <!-- Left Label -->
-                <div class="col-lg-1 course-outline-box">
-                    <div class="d-flex align-items-center justify-content-center 
-                        text-center text-secondary fw-semibold border-3 border-danger p-3 m-0">
+                <div class="col-lg-1 course-outline-box d-flex align-items-center justify-content-center">
+                    <div class="text-center text-secondary fw-semibold border-3 border-danger p-3 m-0">
                         Courses<br />Outline
                     </div>
                 </div>
@@ -364,7 +364,7 @@
                 <div class="col-md-6">
                     <div class="p-4 rounded-4 bg-light shadow-sm">
                         <h3 class="fw-bold text-dark mb-3">
-                            Who can apply for the <span id="CourseNames" class="text-success"></span> course?
+                            Who can apply for the <span class="text-success CourseNames"></span> course?
                         </h3>
                         <ul class="list-unstyled">
                             <li class="d-flex align-items-start mb-3">
@@ -404,6 +404,8 @@
 
         <!--End interest-section-->
 
+
+        <div class="container" id="TopicsData"></div>
 
 
         <!-- start contact us -->
@@ -607,34 +609,59 @@
                     return response.json();
                 })
                 .then(data => {
+                    const container = document.getElementById("TopicsData");
                     var details = data.AllCourseDetails[coursekey];
                     var CourseIncludes = details.CourseIncludes;
                     let CourseDetails = '';
                     let Prerequisites = '';
-                    let Topics = '';
+                    let TopicsData = '';
 
-                    details.CourseDetails.forEach(element => {
-                        CourseDetails += `<p><b>${element.Heading}</b></p>
-                             <p><span style="font-weight:400">${element.Details}</span></p>`;
+                    details.CourseDetails.forEach(topic => {
+                        console.log(topic);
+                        const row = document.createElement("div");
+                        row.className = "row mb-4";
+
+                        // Heading
+                        const headingDiv = document.createElement("div");
+                        headingDiv.className = "col-12 fw-bold fs-5 mb-2";
+                        headingDiv.textContent = topic.Heading;
+                        row.appendChild(headingDiv);
+
+                        // Subpoints
+                        topic.SubPoints.forEach(point => {
+                            const subPointDiv = document.createElement("div");
+                            subPointDiv.className = "col-md-12 col-lg-6 text-secondary";
+                            subPointDiv.textContent = "⪢ " + point;
+                            row.appendChild(subPointDiv);
+                        });
+
+                        container.appendChild(row);
                     });
 
+                    // Insert content into CourseIncludeshtml
+                    const CourseIncludeshtml  = document.getElementById("CourseIncludes");
+                    const durationP = document.createElement("p");
+                    const strongDuration = document.createElement("strong");
+                    strongDuration.textContent = "Duration : ";
+                    durationP.appendChild(strongDuration);
+                    durationP.append(` ${CourseIncludes.Duration}`);
+                    const prerequisitesP = document.createElement("p");
+                    const strongPre = document.createElement("strong");
+                    strongPre.textContent = "Prerequisites : ";
+                    prerequisitesP.appendChild(strongPre);
+                    const ul = document.createElement("ul");
                     CourseIncludes.Prerequisites.forEach(e => {
-                        Prerequisites += `<li>${e.P}</li>`;
-                    })
+                        const li = document.createElement("li");
+                        li.textContent = e.P;
+                        ul.appendChild(li);
+                    });
+                    CourseIncludeshtml.appendChild(durationP);
+                    CourseIncludeshtml.appendChild(prerequisitesP);
+                    CourseIncludeshtml.appendChild(ul);
 
-                    let CourseIncludeshtml =
-                        `
-                    <p><strong>Duration : </strong> ${CourseIncludes.Duration} </p>
-                    <p><strong>Prerequisites : </strong> </p>
-                    <ul> ${Prerequisites} </ul>
-
-                `;
-
-                    document.getElementById('CourseFullName').innerText = details.CourseFullName;
-                    document.getElementById('CourseDetails').innerHTML = CourseDetails;
-                    document.getElementById('CourseIncludes').innerHTML = CourseIncludeshtml;
-                    document.getElementById('CourseName').innerText = details.CourseShortName;
-                    document.getElementById('CourseNames').innerText = details.CourseFullName;
+                    for (let index = 0; index < 3; index++) {
+                        document.getElementsByClassName('CourseNames').item(index).innerText = details.CourseFullName;
+                    }
                 })
                 .catch(error => {
                     console.error('Error loading JSON:', error);
