@@ -12,16 +12,503 @@
           {
             "P": "Basic computer knowledge will be advantage."
           }
+        ],
+        "Topics": [
+          {
+            "Color": "bg-secondary",
+            "Icons": "<i class='fa fa-code'></i>",
+            "Topic": "Java"
+          },
+          {
+            "Color": "bg-primary fs-6",
+            "Icons": "<span>{ OOPS }</span>",
+            "Topic": "OOPS"
+          },
+          {
+            "Color": "bg-danger",
+            "Icons": "<i class='bi bi-javascript'></i>",
+            "Topic": "HTML CSS Javascript"
+          },
+          {
+            "Color": "bg-warning",
+            "Icons": "<img src='assets/images/icons/hibernate-logo.png'>",
+            "Topic": "Hibernate"
+          },
+          {
+            "Color": "bg-success",
+            "Icons": "<img src='assets/images/icons/spring-boot.png'>",
+            "Topic": "Spring"
+          },
+          {
+            "Color": "bg-info",
+            "Icons": "<i class='fa fa-database'></i>",
+            "Topic": "SQL"
+          }
         ]
       },
       "CourseDetails": [
         {
-          "Heading": "Comprehensive Curriculum",
-          "Details": "Java Classes in Pune at ITView deliver a curriculum based on real-world industry standards to train students in Core Java while covering Spring Boot, Hibernate, Angular, React and MySQL and MongoDB database operations."
+          "Heading": "Java Language Importance",
+          "SubPoints": [
+            "Syntactically Simple",
+            "Object Oriented",
+            "Platform Independent",
+            "Dynamic Memory Management",
+            "Compiled / Interpreted approach",
+            "Robust",
+            "Security",
+            "Dynamic Linking",
+            "Multi-Threading",
+            "Built-in Networking",
+            "Basic knowledge of HTML, CSS, Javascript or any programming language"
+          ]
         },
         {
-          "Heading": "Comprehensive Curriculum",
-          "Details": "Java Classes in Pune at ITView deliver a curriculum based on real-world industry standards to train students in Core Java while covering Spring Boot, Hibernate, Angular, React and MySQL and MongoDB database operations."
+          "Heading": "Programming Languages",
+          "SubPoints": [
+            "Programming Languages",
+            "Object Oriented Programming",
+            "Classes & Objects",
+            "Pillars Of Object Oriented Programming",
+            "OOPS concepts and terminology",
+            "Encapsulation & Examples",
+            "Abstraction & Examples",
+            "Inheritance",
+            "Advantages of OOPS"
+          ]
+        },
+        {
+          "Heading": "What is Java",
+          "SubPoints": [
+            "History of Java",
+            "Features of Java",
+            "What is Java?",
+            "Execution Model Of Java",
+            "Bytecode",
+            "How to Get Java.?",
+            "A First Java Program",
+            "Compiling and Interpreting Applications",
+            "The JDK Directory Structure",
+            "Using Eclipse"
+          ]
+        },
+        {
+          "Heading": "Data types and Variables",
+          "SubPoints": [
+            "What are data types?",
+            "Primitive Datatypes & Declarations",
+            "Variables & Types",
+            "Numeric & Character Literals",
+            "String formatting and Parsing",
+            "String Literals",
+            "Arrays, Non-Primitive Datatypes",
+            "Casting & Type Casting",
+            "Widening & Narrowing Conversions",
+            "The Dot Operator"
+          ]
+        },
+        {
+          "Heading": "Methods",
+          "SubPoints": [
+            "What are Methods?",
+            "Method Structure",
+            "Declaration Of Methods",
+            "Calling Of Methods",
+            "Defining Methods",
+            "Method Parameters Scope",
+            "Why static methods?"
+          ]
+        },
+        {
+          "Heading": "Operators and Expressions",
+          "SubPoints": [
+            "Expressions",
+            "Assignment Operator",
+            "Arithmetic Operators",
+            "Relational Operators",
+            "Logical Operators",
+            "Increment and Decrement Operators",
+            "Operate-Assign Operators (+=, etc.)",
+            "The Conditional Operator",
+            "Operator Precedence",
+            "The Cast Operator"
+          ]
+        },
+        {
+          "Heading": "Control Statements",
+          "SubPoints": [
+            "Java If-else",
+            "Java Switch",
+            "Java For Loop",
+            "Java While Loop",
+            "Java Do While Loop",
+            "Java Break",
+            "Java Continue",
+            "Java Comments",
+            "Java Programs"
+          ]
+        },
+        {
+          "Heading": "Java Object Class",
+          "SubPoints": [
+            "Java OOPs Concepts",
+            "Naming Convention",
+            "Object and Class",
+            "Constructor",
+            "static keyword",
+            "this keyword"
+          ]
+        },
+        {
+          "Heading": "Java Inheritance",
+          "SubPoints": [
+            "Inheritance(IS-A)",
+            "Single Inheritance",
+            "Multilevel Inheritance",
+            "Hierarchical Inheritance",
+            "Aggregation(HAS-A)"
+          ]
+        },
+        {
+          "Heading": "Java Polymorphism",
+          "SubPoints": [
+            "Method Overloading",
+            "Method Overriding",
+            "Covariant Return Type",
+            "super keyword",
+            "Instance Initializer block",
+            "final keyword",
+            "Runtime Polymorphism",
+            "Dynamic Binding",
+            "instance Of operator"
+          ]
+        },
+        {
+          "Heading": "Java Abstraction",
+          "SubPoints": ["Abstract class", "Interface", "Abstract vs Interface"]
+        },
+        {
+          "Heading": "Java Encapsulation",
+          "SubPoints": ["Package", "Access Modifiers", "Encapsulation"]
+        },
+        {
+          "Heading": "Interfaces and Abstract Classes",
+          "SubPoints": [
+            "What is an Interface",
+            "Defining Interfaces",
+            "Separating Interface and Implementation",
+            "Implementing and Extending Interfaces",
+            "Abstract Classes"
+          ]
+        },
+        {
+          "Heading": "Packages",
+          "SubPoints": [
+            "What is a Package?",
+            "Advantages of using a Package",
+            "Types Of Packages",
+            "Naming Convention",
+            "Steps For Creating Packages",
+            "Defining Packages",
+            "Package Scope"
+          ]
+        },
+        {
+          "Heading": "Java Array",
+          "SubPoints": ["Java Array"]
+        },
+        {
+          "Heading": "Java String",
+          "SubPoints": [
+            "Immutable String",
+            "String Comparison",
+            "String Concatenation",
+            "Substring",
+            "Methods of String class",
+            "StringBuffer class",
+            "String vs StringBuffer",
+            "toString method"
+          ]
+        },
+        {
+          "Heading": "Exception Handling",
+          "SubPoints": [
+            "try and catch block",
+            "Multiple try & catch block",
+            "finally block",
+            "throw keyword",
+            "Throw vs Throws",
+            "Final vs Finally vs Finalize"
+          ]
+        },
+        {
+          "Heading": "Java Multithreading",
+          "SubPoints": [
+            "What is Multithreading",
+            "Life Cycle of a Thread",
+            "Creating Thread",
+            "Thread Scheduler",
+            "Sleeping a thread",
+            "Start a thread twice",
+            "Calling run() method"
+          ]
+        },
+        {
+          "Heading": "Java Synchronization",
+          "SubPoints": [
+            "Synchronization in java",
+            "synchronized block",
+            "static synchronization",
+            "Deadlock in Java",
+            "Inter-thread Comm"
+          ]
+        },
+        {
+          "Heading": "Java I/O",
+          "SubPoints": [
+            "Java Input/Output",
+            "FileOutputStream",
+            "FileInputStream",
+            "BufferedOutputStream",
+            "BufferedInputStream"
+          ]
+        },
+        {
+          "Heading": "Java Networking",
+          "SubPoints": [
+            "Networking Concepts",
+            "Socket Programming",
+            "URL class",
+            "URLConnection class",
+            "HttpURLConnection",
+            "InetAddress class",
+            "DatagramSocket class"
+          ]
+        },
+        {
+          "Heading": "Java Swing",
+          "SubPoints": [
+            "Swing Introduction",
+            "Java Swing & Events",
+            "Swing UI Elements",
+            "Event Handling",
+            "Java ActionListener",
+            "Java MouseListener",
+            "Java ItemListener",
+            "Close Swing Window"
+          ]
+        },
+        {
+          "Heading": "Java AWT",
+          "SubPoints": [
+            "Java AWT & Events",
+            "AWT UI Elements",
+            "Event Handling",
+            "Java ActionListener",
+            "Java MouseListener",
+            "Java ItemListener",
+            "Close AWT Window"
+          ]
+        },
+        {
+          "Heading": "Java Collections",
+          "SubPoints": [
+            "The Collections Framework",
+            "The Set Interface",
+            "Set Interface Methods",
+            "Set Implementation Classes",
+            "The List Interface",
+            "List Implementation Classes",
+            "The Map Interfaces",
+            "Map Implementation Classes",
+            "Utility classes",
+            "Generics in Java",
+            "Primitive wrapper classes"
+          ]
+        },
+        {
+          "Heading": "Java JDBC",
+          "SubPoints": [
+            "JDBC Introduction",
+            "JDBC Driver",
+            "DB Connectivity Steps",
+            "Connectivity with MySQL",
+            "DriverManager",
+            "Connection",
+            "Statement",
+            "ResultSet",
+            "PreparedStatement"
+          ]
+        },
+        {
+          "Heading": "HTML",
+          "SubPoints": ["HTML Basics", "HTML Elements"]
+        },
+        {
+          "Heading": "CSS",
+          "SubPoints": ["CSS Introduction", "CSS Syntax & Selectors"]
+        },
+        {
+          "Heading": "JavaScript",
+          "SubPoints": ["JavaScript Overview"]
+        },
+        {
+          "Heading": "Bootstrap",
+          "SubPoints": ["Bootstrap Overview"]
+        },
+        {
+          "Heading": "Java MVC Architecture",
+          "SubPoints": [
+            "Three-tier architecture",
+            "Introduction to MVC",
+            "MVC Architecture",
+            "Advantages of MVC",
+            "Building pages with MVC"
+          ]
+        },
+        {
+          "Heading": "Servlets",
+          "SubPoints": [
+            "What is a web application?",
+            "What is a Servlet?",
+            "Advantages of Servlet",
+            "Servlet Class",
+            "Servlet Lifecycle",
+            "Servlet Context Interface",
+            "Advantages of Servlet Context",
+            "Session management",
+            "Session Tracking Techniques",
+            "Cookies",
+            "Hidden field",
+            "URL Rewriting",
+            "HTTP Session",
+            "Building the first Servlet",
+            "Deploying the Servlet",
+            "Servlet Examples"
+          ]
+        },
+        {
+          "Heading": "JSP",
+          "SubPoints": [
+            "Introduction of JSP",
+            "JSP Architecture",
+            "JSP Processing",
+            "JSP Tag library",
+            "Core Tags",
+            "JSP Standard Tags",
+            "JSP Page Life Cycle",
+            "Creating the first Dynamic web page using JSP"
+          ]
+        },
+        {
+          "Heading": "Hibernate",
+          "SubPoints": [
+            "Introduction to Hibernate",
+            "Hibernate v/s JDBC",
+            "What is Object Relational Mapping",
+            "Hibernate Features",
+            "Application Architecture",
+            "Persistent Classes",
+            "Object States",
+            "Transient State",
+            "Persistent State",
+            "Detached State",
+            "Rules of Persistent Classes",
+            "Mapping Collections",
+            "Hibernate Mapping File Elements",
+            "One-to-one",
+            "One-to-many mapping",
+            "Many - one mapping",
+            "Many - to - many mapping",
+            "Hibernate Query Language",
+            "Basic HQL Operations",
+            "Advantages of HQL",
+            "Caching and Transactions",
+            "Types Of Cache",
+            "Hibernate Transaction Management",
+            "Transaction Interface In Hibernate",
+            "Hibernate with Web Applications"
+          ]
+        },
+        {
+          "Heading": "Spring",
+          "SubPoints": [
+            "Introduction of Spring Framework",
+            "Characteristics Of Spring",
+            "Spring Framework Architecture",
+            "Spring Framework Modules",
+            "Spring Platform Advantage",
+            "Spring bean Wiring",
+            "Dependency Injection",
+            "IoC Containers",
+            "Spring Bean Lifecycle",
+            "Beans Auto Wiring",
+            "Autowiring Limitations",
+            "Spring with database",
+            "Introduction to JDBC",
+            "Limitations of JDBC API",
+            "Spring JDBC Approaches",
+            "JdbcTemplate Class",
+            "JdbcTemplate Class Methods",
+            "Data Access Object (DAO)"
+          ]
+        },
+        {
+          "Heading": "Struts2",
+          "SubPoints": [
+            "Introduction to Struts",
+            "What is a Web Framework",
+            "Limitations of JSP/Servlet Coding",
+            "MVC1 v/s MVC2",
+            "What is Struts",
+            "Invasive v/s Non invasive Frameworks",
+            "Modules in Struts 2",
+            "Request Processing Lifecycle",
+            "Struts1 v/s Struts2",
+            "Advantages of Struts2",
+            "Struts2 MVC Architecture",
+            "Actions Commponent",
+            "Results & Result Types",
+            "The Value Stack",
+            "Action Classes",
+            "Introduction to Action Class",
+            "Characteristics Of Action Class",
+            "ActionSupport Class",
+            "Action Interface",
+            "Handling Application Requests",
+            "Handling Form Data",
+            "Struts2 Form",
+            "JavaBean Classv",
+            "Success Page",
+            "Configuring Struts2",
+            "Deployment Descriptors",
+            "The web.xml file",
+            "The struts.xml file",
+            "The struts-config.xml file",
+            "The struts. Properties file"
+          ]
+        },
+        {
+          "Heading": "SQL",
+          "SubPoints": [
+            "Introduction to RDBMS",
+            "Features of RDBMS",
+            "Introduction to SQL",
+            "Basic Terminologies",
+            "PLSQL Data Types",
+            "Primary Key v/s Foreign Key",
+            "The Unique Constraint",
+            "DDL Statements",
+            "DML Statements",
+            "Retrieving Records",
+            "Normalization",
+            "Functions in SQL",
+            "Handling Null Values",
+            "SQL Joins",
+            "Inner joins",
+            "Outer Joins",
+            "Right Joins"
+          ]
         }
       ]
     },
@@ -39,36 +526,36 @@
           }
         ],
         "Topics": [
-            {
-                "Color":"bg-warning",
-                "Icons":"<i class='fa fa-code'></i>",
-                "Topic":"C#"
-            },
-            {
-                "Color":"bg-primary",
-                "Icons":"<i class='fa fa-database'></i>",
-                "Topic":"ADO.NET"
-            },
-            {
-                "Color":"bg-success",
-                "Icons":"<i class='fa fa-database'></i>",
-                "Topic":"SQL"
-            },
-            {
-                "Color":"bg-info",
-                "Icons":"<i class='fa fa-code'></i>",
-                "Topic":"ASP.NET"
-            },
-            {
-                "Color":"bg-danger",
-                "Icons":"<i class='bi bi-javascript'></i>",
-                "Topic":"AJAX"
-            },
-            {
-                "Color":"bg-secondary",
-                "Icons":"<i class='fa fa-code'></i>",
-                "Topic":"ASP.NET MVC"
-            }
+          {
+            "Color": "bg-warning",
+            "Icons": "<i class='fa fa-code'></i>",
+            "Topic": "C#"
+          },
+          {
+            "Color": "bg-primary",
+            "Icons": "<i class='fa fa-database'></i>",
+            "Topic": "ADO.NET"
+          },
+          {
+            "Color": "bg-success",
+            "Icons": "<i class='fa fa-database'></i>",
+            "Topic": "SQL"
+          },
+          {
+            "Color": "bg-info",
+            "Icons": "<i class='fa fa-code'></i>",
+            "Topic": "ASP.NET"
+          },
+          {
+            "Color": "bg-danger",
+            "Icons": "<i class='bi bi-javascript'></i>",
+            "Topic": "AJAX"
+          },
+          {
+            "Color": "bg-secondary",
+            "Icons": "<i class='fa fa-code'></i>",
+            "Topic": "ASP.NET MVC"
+          }
         ]
       },
       "CourseDetails": [
@@ -423,11 +910,15 @@
       "CourseDetails": [
         {
           "Heading": "Modern Angular Development",
-          "SubPoints": ["Covers Angular architecture, components, directives, services, routing, forms, and state management using RxJS and NgRx."]
+          "SubPoints": [
+            "Covers Angular architecture, components, directives, services, routing, forms, and state management using RxJS and NgRx."
+          ]
         },
         {
           "Heading": "Real-time Projects",
-          "SubPoints": ["Includes mini-projects and a final capstone project to apply Angular concepts in real-world scenarios."]
+          "SubPoints": [
+            "Includes mini-projects and a final capstone project to apply Angular concepts in real-world scenarios."
+          ]
         }
       ]
     }
