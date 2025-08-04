@@ -38,7 +38,38 @@
             "P": "Familiarity with Windows OS."
           }
         ],
-        "Topics": []
+        "Topics": [
+            {
+                "Color":"bg-warning",
+                "Icons":"<i class='fa fa-code'></i>",
+                "Topic":"C#"
+            },
+            {
+                "Color":"bg-primary",
+                "Icons":"<i class='fa fa-database'></i>",
+                "Topic":"ADO.NET"
+            },
+            {
+                "Color":"bg-success",
+                "Icons":"<i class='fa fa-database'></i>",
+                "Topic":"SQL"
+            },
+            {
+                "Color":"bg-info",
+                "Icons":"<i class='fa fa-code'></i>",
+                "Topic":"ASP.NET"
+            },
+            {
+                "Color":"bg-danger",
+                "Icons":"<i class='bi bi-javascript'></i>",
+                "Topic":"AJAX"
+            },
+            {
+                "Color":"bg-secondary",
+                "Icons":"<i class='fa fa-code'></i>",
+                "Topic":"ASP.NET MVC"
+            }
+        ]
       },
       "CourseDetails": [
         {
