@@ -205,7 +205,9 @@
         <!-- end Course Includes -->
 
         <div class="container-fluid">
-            <div class="row g-4" id="demos"></div>
+            <div class="row g-4" id="demos">
+                <!-- <img src="assets/images/icons/spring-boot.png"> -->
+            </div>
         </div>
 
 
@@ -630,7 +632,7 @@
                     })
 
                     for (let index = 0; index < 3; index++) {
-                        document.getElementsByClassName('CourseNames').item(index).innerText = details.CourseFullName;
+                        document.getElementsByClassName('CourseNames').item(index).innerText = details.CourseName;
                     }
                 })
                 .catch(error => {

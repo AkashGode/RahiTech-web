@@ -228,6 +228,7 @@
             "String vs StringBuffer",
             "toString method"
           ]
+
         },
         {
           "Heading": "Exception Handling",
@@ -386,7 +387,166 @@
             "Servlet Examples"
           ]
         },
+
         {
+          "Heading": "Exception Handling",
+          "SubPoints": [
+            "try and catch block",
+            "Multiple try & catch block",
+            "finally block",
+            "throw keyword",
+            "Throw vs Throws",
+            "Final vs Finally vs Finalize"
+          ]
+        },
+        {
+          "Heading": "Java Multithreading",
+          "SubPoints": [
+            "What is Multithreading",
+            "Life Cycle of a Thread",
+            "Creating Thread",
+            "Thread Scheduler",
+            "Sleeping a thread",
+            "Start a thread twice",
+            "Calling run() method"
+          ]
+        },
+        {
+          "Heading": "Java Synchronization",
+          "SubPoints": [
+            "Synchronization in java",
+            "synchronized block",
+            "static synchronization",
+            "Deadlock in Java",
+            "Inter-thread Comm"
+          ]
+        },
+        {
+          "Heading": "Java I/O",
+          "SubPoints": [
+            "Java Input/Output",
+            "FileOutputStream",
+            "FileInputStream",
+            "BufferedOutputStream",
+            "BufferedInputStream"
+          ]
+        },
+        {
+          "Heading": "Java Networking",
+          "SubPoints": [
+            "Networking Concepts",
+            "Socket Programming",
+            "URL class",
+            "URLConnection class",
+            "HttpURLConnection",
+            "InetAddress class",
+            "DatagramSocket class"
+          ]
+        },
+        {
+          "Heading": "Java Swing",
+          "SubPoints": [
+            "Swing Introduction",
+            "Java Swing & Events",
+            "Swing UI Elements",
+            "Event Handling",
+            "Java ActionListener",
+            "Java MouseListener",
+            "Java ItemListener",
+            "Close Swing Window"
+          ]
+        },
+        {
+          "Heading": "Java AWT",
+          "SubPoints": [
+            "Java AWT & Events",
+            "AWT UI Elements",
+            "Event Handling",
+            "Java ActionListener",
+            "Java MouseListener",
+            "Java ItemListener",
+            "Close AWT Window"
+          ]
+        },
+        {
+          "Heading": "Java Collections",
+          "SubPoints": [
+            "The Collections Framework",
+            "The Set Interface",
+            "Set Interface Methods",
+            "Set Implementation Classes",
+            "The List Interface",
+            "List Implementation Classes",
+            "The Map Interfaces",
+            "Map Implementation Classes",
+            "Utility classes",
+            "Generics in Java",
+            "Primitive wrapper classes"
+          ]
+        },
+        {
+          "Heading": "Java JDBC",
+          "SubPoints": [
+            "JDBC Introduction",
+            "JDBC Driver",
+            "DB Connectivity Steps",
+            "Connectivity with MySQL",
+            "DriverManager",
+            "Connection",
+            "Statement",
+            "ResultSet",
+            "PreparedStatement"
+          ]
+        },
+        {
+          "Heading": "HTML",
+          "SubPoints": ["HTML Basics", "HTML Elements"]
+        },
+        {
+          "Heading": "CSS",
+          "SubPoints": ["CSS Introduction", "CSS Syntax & Selectors"]
+        },
+        {
+          "Heading": "JavaScript",
+          "SubPoints": ["JavaScript Overview"]
+        },
+        {
+          "Heading": "Bootstrap",
+          "SubPoints": ["Bootstrap Overview"]
+        },
+        {
+          "Heading": "Java MVC Architecture",
+          "SubPoints": [
+            "Three-tier architecture",
+            "Introduction to MVC",
+            "MVC Architecture",
+            "Advantages of MVC",
+            "Building pages with MVC"
+          ]
+        },
+        {
+          "Heading": "Servlets",
+          "SubPoints": [
+            "What is a web application?",
+            "What is a Servlet?",
+            "Advantages of Servlet",
+            "Servlet Class",
+            "Servlet Lifecycle",
+            "Servlet Context Interface",
+            "Advantages of Servlet Context",
+            "Session management",
+            "Session Tracking Techniques",
+            "Cookies",
+            "Hidden field",
+            "URL Rewriting",
+            "HTTP Session",
+            "Building the first Servlet",
+            "Deploying the Servlet",
+            "Servlet Examples"
+          ]
+        },
+        {
+
           "Heading": "JSP",
           "SubPoints": [
             "Introduction of JSP",
@@ -953,8 +1113,6 @@
         }
       ]
     },
-
-
     "CCNARoutingSwitching": {
       "CourseName": "CCNA Routing & Switching",
       "CourseIncludes": {
@@ -1365,9 +1523,6 @@
         }
       ]
     },
-
-
-
     "Android": {
       "CourseName": "Android",
       "CourseIncludes": {
