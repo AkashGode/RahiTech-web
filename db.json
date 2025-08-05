@@ -184,11 +184,19 @@
         },
         {
           "Heading": "Java Abstraction",
-          "SubPoints": ["Abstract class", "Interface", "Abstract vs Interface"]
+          "SubPoints": [
+            "Abstract class",
+            "Interface",
+            "Abstract vs Interface"
+          ]
         },
         {
           "Heading": "Java Encapsulation",
-          "SubPoints": ["Package", "Access Modifiers", "Encapsulation"]
+          "SubPoints": [
+            "Package",
+            "Access Modifiers",
+            "Encapsulation"
+          ]
         },
         {
           "Heading": "Interfaces and Abstract Classes",
@@ -214,7 +222,9 @@
         },
         {
           "Heading": "Java Array",
-          "SubPoints": ["Java Array"]
+          "SubPoints": [
+            "Java Array"
+          ]
         },
         {
           "Heading": "Java String",
@@ -228,7 +238,6 @@
             "String vs StringBuffer",
             "toString method"
           ]
-
         },
         {
           "Heading": "Exception Handling",
@@ -342,19 +351,29 @@
         },
         {
           "Heading": "HTML",
-          "SubPoints": ["HTML Basics", "HTML Elements"]
+          "SubPoints": [
+            "HTML Basics",
+            "HTML Elements"
+          ]
         },
         {
           "Heading": "CSS",
-          "SubPoints": ["CSS Introduction", "CSS Syntax & Selectors"]
+          "SubPoints": [
+            "CSS Introduction",
+            "CSS Syntax & Selectors"
+          ]
         },
         {
           "Heading": "JavaScript",
-          "SubPoints": ["JavaScript Overview"]
+          "SubPoints": [
+            "JavaScript Overview"
+          ]
         },
         {
           "Heading": "Bootstrap",
-          "SubPoints": ["Bootstrap Overview"]
+          "SubPoints": [
+            "Bootstrap Overview"
+          ]
         },
         {
           "Heading": "Java MVC Architecture",
@@ -387,7 +406,6 @@
             "Servlet Examples"
           ]
         },
-
         {
           "Heading": "Exception Handling",
           "SubPoints": [
@@ -500,19 +518,29 @@
         },
         {
           "Heading": "HTML",
-          "SubPoints": ["HTML Basics", "HTML Elements"]
+          "SubPoints": [
+            "HTML Basics",
+            "HTML Elements"
+          ]
         },
         {
           "Heading": "CSS",
-          "SubPoints": ["CSS Introduction", "CSS Syntax & Selectors"]
+          "SubPoints": [
+            "CSS Introduction",
+            "CSS Syntax & Selectors"
+          ]
         },
         {
           "Heading": "JavaScript",
-          "SubPoints": ["JavaScript Overview"]
+          "SubPoints": [
+            "JavaScript Overview"
+          ]
         },
         {
           "Heading": "Bootstrap",
-          "SubPoints": ["Bootstrap Overview"]
+          "SubPoints": [
+            "Bootstrap Overview"
+          ]
         },
         {
           "Heading": "Java MVC Architecture",
@@ -546,7 +574,6 @@
           ]
         },
         {
-
           "Heading": "JSP",
           "SubPoints": [
             "Introduction of JSP",
@@ -1051,8 +1078,6 @@
         }
       ]
     },
-
-
     "Angular": {
       "CourseName": "Frontend Development with Angular",
       "CourseIncludes": {
@@ -1588,7 +1613,11 @@
           },
           {
             "Heading": "SDK Overview",
-            "SubPoints": ["Platforms", "Tools", "Versions"]
+            "SubPoints": [
+              "Platforms",
+              "Tools",
+              "Versions"
+            ]
           },
           {
             "Heading": "Hello World App",
@@ -1819,84 +1848,76 @@
         ]
       ]
     },
-
     "RHCSA": {
-  "CourseName": "Red Hat Certified System Administrator (RHCSA)",
-  "CourseIncludes": {
-    "Duration": "3 Months",
-    "Prerequisites": [
-      {
-        "P": "Basic understanding of operating systems and networking concepts."
+      "CourseName": "Red Hat Certified System Administrator (RHCSA)",
+      "CourseIncludes": {
+        "Duration": "3 Months",
+        "Prerequisites": [
+          {
+            "P": "Basic understanding of operating systems and networking concepts."
+          },
+          {
+            "P": "Familiarity with basic command line usage is beneficial but not mandatory."
+          }
+        ],
+        "Topics": [
+          {
+            "Color": "bg-danger",
+            "Icons": "<i class='fa fa-terminal'></i>",
+            "Topic": "Basic Unix Commands"
+          },
+          {
+            "Color": "bg-warning",
+            "Icons": "<i class='fa fa-edit'></i>",
+            "Topic": "Vim Editor"
+          },
+          {
+            "Color": "bg-primary",
+            "Icons": "<i class='fa fa-folder-open'></i>",
+            "Topic": "File System Hierarchy"
+          },
+          {
+            "Color": "bg-success",
+            "Icons": "<i class='fa fa-users'></i>",
+            "Topic": "User & Group Management"
+          },
+          {
+            "Color": "bg-info",
+            "Icons": "<i class='fa fa-hdd'></i>",
+            "Topic": "LVM & Disk Management"
+          },
+          {
+            "Color": "bg-secondary",
+            "Icons": "<i class='fa fa-network-wired'></i>",
+            "Topic": "Networking & Firewall"
+          }
+        ]
       },
-      {
-        "P": "Familiarity with basic command line usage is beneficial but not mandatory."
-      }
-    ],
-    "Topics": [
-      {
-        "Color": "bg-danger",
-        "Icons": "<i class='fa fa-terminal'></i>",
-        "Topic": "Basic Unix Commands"
-      },
-      {
-        "Color": "bg-warning",
-        "Icons": "<i class='fa fa-edit'></i>",
-        "Topic": "Vim Editor"
-      },
-      {
-        "Color": "bg-primary",
-        "Icons": "<i class='fa fa-folder-open'></i>",
-        "Topic": "File System Hierarchy"
-      },
-      {
-        "Color": "bg-success",
-        "Icons": "<i class='fa fa-users'></i>",
-        "Topic": "User & Group Management"
-      },
-      {
-        "Color": "bg-info",
-        "Icons": "<i class='fa fa-hdd'></i>",
-        "Topic": "LVM & Disk Management"
-      },
-      {
-        "Color": "bg-secondary",
-        "Icons": "<i class='fa fa-network-wired'></i>",
-        "Topic": "Networking & Firewall"
-      }
-    ]
-  },
-  "CourseDetails": [
-    {
-      "Heading": "RHCSA Course Syllabus",
-      "SubPoints": [
-        "Basic Unix commands - Files and directory handling",
-        "Using vim editor",
-        "Understanding Linux file systems hierarchy",
-        "Manage local Linux users and groups, and local password policies",
-        "File systems Permissions and Group Collaboration",
-        "Using access control lists (ACL)",
-        "Disk Management – fdisk and gdisk",
-        "Manage logical volume management (LVM) storage",
-        "Schedule future Linux tasks",
-        "Control and monitor network services and system daemons using systemd",
-        "Control and troubleshoot the Red Hat Enterprise Linux boot process",
-        "Manage Red Hat Enterprise Linux networking: Configure basic IPv4 settings",
-        "Install and manage software packages from Red Hat and yum package repositories",
-        "Configure and secure OpenSSH service",
-        "Configure a basic local firewall",
-        "Archive files and copy them from one system to another",
-        "Locate and interpret relevant system log files for troubleshooting purposes",
-        "Mounting network file systems: NFS and server message block (SMB) shares from network file servers"
+      "CourseDetails": [
+        {
+          "Heading": "RHCSA Course Syllabus",
+          "SubPoints": [
+            "Basic Unix commands - Files and directory handling",
+            "Using vim editor",
+            "Understanding Linux file systems hierarchy",
+            "Manage local Linux users and groups, and local password policies",
+            "File systems Permissions and Group Collaboration",
+            "Using access control lists (ACL)",
+            "Disk Management – fdisk and gdisk",
+            "Manage logical volume management (LVM) storage",
+            "Schedule future Linux tasks",
+            "Control and monitor network services and system daemons using systemd",
+            "Control and troubleshoot the Red Hat Enterprise Linux boot process",
+            "Manage Red Hat Enterprise Linux networking: Configure basic IPv4 settings",
+            "Install and manage software packages from Red Hat and yum package repositories",
+            "Configure and secure OpenSSH service",
+            "Configure a basic local firewall",
+            "Archive files and copy them from one system to another",
+            "Locate and interpret relevant system log files for troubleshooting purposes",
+            "Mounting network file systems: NFS and server message block (SMB) shares from network file servers"
+          ]
+        }
       ]
     }
-  ]
-}
-
-
-   
-    
-
-
-    
   }
 }
