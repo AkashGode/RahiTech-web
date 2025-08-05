@@ -552,6 +552,164 @@
             "Servlet Examples"
           ]
         },
+
+        {
+          "Heading": "Exception Handling",
+          "SubPoints": [
+            "try and catch block",
+            "Multiple try & catch block",
+            "finally block",
+            "throw keyword",
+            "Throw vs Throws",
+            "Final vs Finally vs Finalize"
+          ]
+        },
+        {
+          "Heading": "Java Multithreading",
+          "SubPoints": [
+            "What is Multithreading",
+            "Life Cycle of a Thread",
+            "Creating Thread",
+            "Thread Scheduler",
+            "Sleeping a thread",
+            "Start a thread twice",
+            "Calling run() method"
+          ]
+        },
+        {
+          "Heading": "Java Synchronization",
+          "SubPoints": [
+            "Synchronization in java",
+            "synchronized block",
+            "static synchronization",
+            "Deadlock in Java",
+            "Inter-thread Comm"
+          ]
+        },
+        {
+          "Heading": "Java I/O",
+          "SubPoints": [
+            "Java Input/Output",
+            "FileOutputStream",
+            "FileInputStream",
+            "BufferedOutputStream",
+            "BufferedInputStream"
+          ]
+        },
+        {
+          "Heading": "Java Networking",
+          "SubPoints": [
+            "Networking Concepts",
+            "Socket Programming",
+            "URL class",
+            "URLConnection class",
+            "HttpURLConnection",
+            "InetAddress class",
+            "DatagramSocket class"
+          ]
+        },
+        {
+          "Heading": "Java Swing",
+          "SubPoints": [
+            "Swing Introduction",
+            "Java Swing & Events",
+            "Swing UI Elements",
+            "Event Handling",
+            "Java ActionListener",
+            "Java MouseListener",
+            "Java ItemListener",
+            "Close Swing Window"
+          ]
+        },
+        {
+          "Heading": "Java AWT",
+          "SubPoints": [
+            "Java AWT & Events",
+            "AWT UI Elements",
+            "Event Handling",
+            "Java ActionListener",
+            "Java MouseListener",
+            "Java ItemListener",
+            "Close AWT Window"
+          ]
+        },
+        {
+          "Heading": "Java Collections",
+          "SubPoints": [
+            "The Collections Framework",
+            "The Set Interface",
+            "Set Interface Methods",
+            "Set Implementation Classes",
+            "The List Interface",
+            "List Implementation Classes",
+            "The Map Interfaces",
+            "Map Implementation Classes",
+            "Utility classes",
+            "Generics in Java",
+            "Primitive wrapper classes"
+          ]
+        },
+        {
+          "Heading": "Java JDBC",
+          "SubPoints": [
+            "JDBC Introduction",
+            "JDBC Driver",
+            "DB Connectivity Steps",
+            "Connectivity with MySQL",
+            "DriverManager",
+            "Connection",
+            "Statement",
+            "ResultSet",
+            "PreparedStatement"
+          ]
+        },
+        {
+          "Heading": "HTML",
+          "SubPoints": ["HTML Basics", "HTML Elements"]
+        },
+        {
+          "Heading": "CSS",
+          "SubPoints": ["CSS Introduction", "CSS Syntax & Selectors"]
+        },
+        {
+          "Heading": "JavaScript",
+          "SubPoints": ["JavaScript Overview"]
+        },
+        {
+          "Heading": "Bootstrap",
+          "SubPoints": ["Bootstrap Overview"]
+        },
+        {
+          "Heading": "Java MVC Architecture",
+          "SubPoints": [
+            "Three-tier architecture",
+            "Introduction to MVC",
+            "MVC Architecture",
+            "Advantages of MVC",
+            "Building pages with MVC"
+          ]
+        },
+        {
+          "Heading": "Servlets",
+          "SubPoints": [
+            "What is a web application?",
+            "What is a Servlet?",
+            "Advantages of Servlet",
+            "Servlet Class",
+            "Servlet Lifecycle",
+            "Servlet Context Interface",
+            "Advantages of Servlet Context",
+            "Session management",
+            "Session Tracking Techniques",
+            "Cookies",
+            "Hidden field",
+            "URL Rewriting",
+            "HTTP Session",
+            "Building the first Servlet",
+            "Deploying the Servlet",
+            "Servlet Examples"
+          ]
+        },
         {
           "Heading": "JSP",
           "SubPoints": [
@@ -2114,6 +2272,78 @@
             ]
           }
         ]
+      ]
+    },
+
+    "RHCSA": {
+      "CourseName": "Red Hat Certified System Administrator (RHCSA)",
+      "CourseIncludes": {
+        "Duration": "3 Months",
+        "Prerequisites": [
+          {
+            "P": "Basic understanding of operating systems and networking concepts."
+          },
+          {
+            "P": "Familiarity with basic command line usage is beneficial but not mandatory."
+          }
+        ],
+        "Topics": [
+          {
+            "Color": "bg-danger",
+            "Icons": "<i class='fa fa-terminal'></i>",
+            "Topic": "Basic Unix Commands"
+          },
+          {
+            "Color": "bg-warning",
+            "Icons": "<i class='fa fa-edit'></i>",
+            "Topic": "Vim Editor"
+          },
+          {
+            "Color": "bg-primary",
+            "Icons": "<i class='fa fa-folder-open'></i>",
+            "Topic": "File System Hierarchy"
+          },
+          {
+            "Color": "bg-success",
+            "Icons": "<i class='fa fa-users'></i>",
+            "Topic": "User & Group Management"
+          },
+          {
+            "Color": "bg-info",
+            "Icons": "<i class='fa fa-hdd'></i>",
+            "Topic": "LVM & Disk Management"
+          },
+          {
+            "Color": "bg-secondary",
+            "Icons": "<i class='fa fa-network-wired'></i>",
+            "Topic": "Networking & Firewall"
+          }
+        ]
+      },
+      "CourseDetails": [
+        {
+          "Heading": "RHCSA Course Syllabus",
+          "SubPoints": [
+            "Basic Unix commands - Files and directory handling",
+            "Using vim editor",
+            "Understanding Linux file systems hierarchy",
+            "Manage local Linux users and groups, and local password policies",
+            "File systems Permissions and Group Collaboration",
+            "Using access control lists (ACL)",
+            "Disk Management – fdisk and gdisk",
+            "Manage logical volume management (LVM) storage",
+            "Schedule future Linux tasks",
+            "Control and monitor network services and system daemons using systemd",
+            "Control and troubleshoot the Red Hat Enterprise Linux boot process",
+            "Manage Red Hat Enterprise Linux networking: Configure basic IPv4 settings",
+            "Install and manage software packages from Red Hat and yum package repositories",
+            "Configure and secure OpenSSH service",
+            "Configure a basic local firewall",
+            "Archive files and copy them from one system to another",
+            "Locate and interpret relevant system log files for troubleshooting purposes",
+            "Mounting network file systems: NFS and server message block (SMB) shares from network file servers"
+          ]
+        }
       ]
     }
   }
