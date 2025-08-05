@@ -1,8 +1,7 @@
 {
   "AllCourseDetails": {
     "Java": {
-      "CourseFullName": "Java Full Stack Development",
-      "CourseShortName": "Java",
+      "CourseName": "Java Full Stack Development",
       "CourseIncludes": {
         "Duration": "6 Months",
         "Prerequisites": [
@@ -12,22 +11,508 @@
           {
             "P": "Basic computer knowledge will be advantage."
           }
+        ],
+        "Topics": [
+          {
+            "Color": "bg-secondary",
+            "Icons": "<i class='fa fa-code'></i>",
+            "Topic": "Java"
+          },
+          {
+            "Color": "bg-primary fs-6",
+            "Icons": "<span>{ OOPS }</span>",
+            "Topic": "OOPS"
+          },
+          {
+            "Color": "bg-danger",
+            "Icons": "<i class='bi bi-javascript'></i>",
+            "Topic": "Frontend Development"
+          },
+          {
+            "Color": "bg-warning",
+            "Icons": "<img src='assets/images/icons/hibernate-logo.png'>",
+            "Topic": "Hibernate"
+          },
+          {
+            "Color": "bg-success",
+            "Icons": "<img src='assets/images/icons/spring-boot.png'>",
+            "Topic": "Spring"
+          },
+          {
+            "Color": "bg-info",
+            "Icons": "<i class='fa fa-database'></i>",
+            "Topic": "SQL"
+          }
         ]
       },
       "CourseDetails": [
         {
-          "Heading": "Comprehensive Curriculum",
-          "Details": "Java Classes in Pune at ITView deliver a curriculum based on real-world industry standards to train students in Core Java while covering Spring Boot, Hibernate, Angular, React and MySQL and MongoDB database operations."
+          "Heading": "Java Language Importance",
+          "SubPoints": [
+            "Syntactically Simple",
+            "Object Oriented",
+            "Platform Independent",
+            "Dynamic Memory Management",
+            "Compiled / Interpreted approach",
+            "Robust",
+            "Security",
+            "Dynamic Linking",
+            "Multi-Threading",
+            "Built-in Networking",
+            "Basic knowledge of HTML, CSS, Javascript or any programming language"
+          ]
         },
         {
-          "Heading": "Comprehensive Curriculum",
-          "Details": "Java Classes in Pune at ITView deliver a curriculum based on real-world industry standards to train students in Core Java while covering Spring Boot, Hibernate, Angular, React and MySQL and MongoDB database operations."
+          "Heading": "Programming Languages",
+          "SubPoints": [
+            "Programming Languages",
+            "Object Oriented Programming",
+            "Classes & Objects",
+            "Pillars Of Object Oriented Programming",
+            "OOPS concepts and terminology",
+            "Encapsulation & Examples",
+            "Abstraction & Examples",
+            "Inheritance",
+            "Advantages of OOPS"
+          ]
+        },
+        {
+          "Heading": "What is Java",
+          "SubPoints": [
+            "History of Java",
+            "Features of Java",
+            "What is Java?",
+            "Execution Model Of Java",
+            "Bytecode",
+            "How to Get Java.?",
+            "A First Java Program",
+            "Compiling and Interpreting Applications",
+            "The JDK Directory Structure",
+            "Using Eclipse"
+          ]
+        },
+        {
+          "Heading": "Data types and Variables",
+          "SubPoints": [
+            "What are data types?",
+            "Primitive Datatypes & Declarations",
+            "Variables & Types",
+            "Numeric & Character Literals",
+            "String formatting and Parsing",
+            "String Literals",
+            "Arrays, Non-Primitive Datatypes",
+            "Casting & Type Casting",
+            "Widening & Narrowing Conversions",
+            "The Dot Operator"
+          ]
+        },
+        {
+          "Heading": "Methods",
+          "SubPoints": [
+            "What are Methods?",
+            "Method Structure",
+            "Declaration Of Methods",
+            "Calling Of Methods",
+            "Defining Methods",
+            "Method Parameters Scope",
+            "Why static methods?"
+          ]
+        },
+        {
+          "Heading": "Operators and Expressions",
+          "SubPoints": [
+            "Expressions",
+            "Assignment Operator",
+            "Arithmetic Operators",
+            "Relational Operators",
+            "Logical Operators",
+            "Increment and Decrement Operators",
+            "Operate-Assign Operators (+=, etc.)",
+            "The Conditional Operator",
+            "Operator Precedence",
+            "The Cast Operator"
+          ]
+        },
+        {
+          "Heading": "Control Statements",
+          "SubPoints": [
+            "Java If-else",
+            "Java Switch",
+            "Java For Loop",
+            "Java While Loop",
+            "Java Do While Loop",
+            "Java Break",
+            "Java Continue",
+            "Java Comments",
+            "Java Programs"
+          ]
+        },
+        {
+          "Heading": "Java Object Class",
+          "SubPoints": [
+            "Java OOPs Concepts",
+            "Naming Convention",
+            "Object and Class",
+            "Constructor",
+            "static keyword",
+            "this keyword"
+          ]
+        },
+        {
+          "Heading": "Java Inheritance",
+          "SubPoints": [
+            "Inheritance(IS-A)",
+            "Single Inheritance",
+            "Multilevel Inheritance",
+            "Hierarchical Inheritance",
+            "Aggregation(HAS-A)"
+          ]
+        },
+        {
+          "Heading": "Java Polymorphism",
+          "SubPoints": [
+            "Method Overloading",
+            "Method Overriding",
+            "Covariant Return Type",
+            "super keyword",
+            "Instance Initializer block",
+            "final keyword",
+            "Runtime Polymorphism",
+            "Dynamic Binding",
+            "instance Of operator"
+          ]
+        },
+        {
+          "Heading": "Java Abstraction",
+          "SubPoints": ["Abstract class", "Interface", "Abstract vs Interface"]
+        },
+        {
+          "Heading": "Java Encapsulation",
+          "SubPoints": ["Package", "Access Modifiers", "Encapsulation"]
+        },
+        {
+          "Heading": "Interfaces and Abstract Classes",
+          "SubPoints": [
+            "What is an Interface",
+            "Defining Interfaces",
+            "Separating Interface and Implementation",
+            "Implementing and Extending Interfaces",
+            "Abstract Classes"
+          ]
+        },
+        {
+          "Heading": "Packages",
+          "SubPoints": [
+            "What is a Package?",
+            "Advantages of using a Package",
+            "Types Of Packages",
+            "Naming Convention",
+            "Steps For Creating Packages",
+            "Defining Packages",
+            "Package Scope"
+          ]
+        },
+        {
+          "Heading": "Java Array",
+          "SubPoints": ["Java Array"]
+        },
+        {
+          "Heading": "Java String",
+          "SubPoints": [
+            "Immutable String",
+            "String Comparison",
+            "String Concatenation",
+            "Substring",
+            "Methods of String class",
+            "StringBuffer class",
+            "String vs StringBuffer",
+            "toString method"
+          ]
+        },
+        {
+          "Heading": "Exception Handling",
+          "SubPoints": [
+            "try and catch block",
+            "Multiple try & catch block",
+            "finally block",
+            "throw keyword",
+            "Throw vs Throws",
+            "Final vs Finally vs Finalize"
+          ]
+        },
+        {
+          "Heading": "Java Multithreading",
+          "SubPoints": [
+            "What is Multithreading",
+            "Life Cycle of a Thread",
+            "Creating Thread",
+            "Thread Scheduler",
+            "Sleeping a thread",
+            "Start a thread twice",
+            "Calling run() method"
+          ]
+        },
+        {
+          "Heading": "Java Synchronization",
+          "SubPoints": [
+            "Synchronization in java",
+            "synchronized block",
+            "static synchronization",
+            "Deadlock in Java",
+            "Inter-thread Comm"
+          ]
+        },
+        {
+          "Heading": "Java I/O",
+          "SubPoints": [
+            "Java Input/Output",
+            "FileOutputStream",
+            "FileInputStream",
+            "BufferedOutputStream",
+            "BufferedInputStream"
+          ]
+        },
+        {
+          "Heading": "Java Networking",
+          "SubPoints": [
+            "Networking Concepts",
+            "Socket Programming",
+            "URL class",
+            "URLConnection class",
+            "HttpURLConnection",
+            "InetAddress class",
+            "DatagramSocket class"
+          ]
+        },
+        {
+          "Heading": "Java Swing",
+          "SubPoints": [
+            "Swing Introduction",
+            "Java Swing & Events",
+            "Swing UI Elements",
+            "Event Handling",
+            "Java ActionListener",
+            "Java MouseListener",
+            "Java ItemListener",
+            "Close Swing Window"
+          ]
+        },
+        {
+          "Heading": "Java AWT",
+          "SubPoints": [
+            "Java AWT & Events",
+            "AWT UI Elements",
+            "Event Handling",
+            "Java ActionListener",
+            "Java MouseListener",
+            "Java ItemListener",
+            "Close AWT Window"
+          ]
+        },
+        {
+          "Heading": "Java Collections",
+          "SubPoints": [
+            "The Collections Framework",
+            "The Set Interface",
+            "Set Interface Methods",
+            "Set Implementation Classes",
+            "The List Interface",
+            "List Implementation Classes",
+            "The Map Interfaces",
+            "Map Implementation Classes",
+            "Utility classes",
+            "Generics in Java",
+            "Primitive wrapper classes"
+          ]
+        },
+        {
+          "Heading": "Java JDBC",
+          "SubPoints": [
+            "JDBC Introduction",
+            "JDBC Driver",
+            "DB Connectivity Steps",
+            "Connectivity with MySQL",
+            "DriverManager",
+            "Connection",
+            "Statement",
+            "ResultSet",
+            "PreparedStatement"
+          ]
+        },
+        {
+          "Heading": "HTML",
+          "SubPoints": ["HTML Basics", "HTML Elements"]
+        },
+        {
+          "Heading": "CSS",
+          "SubPoints": ["CSS Introduction", "CSS Syntax & Selectors"]
+        },
+        {
+          "Heading": "JavaScript",
+          "SubPoints": ["JavaScript Overview"]
+        },
+        {
+          "Heading": "Bootstrap",
+          "SubPoints": ["Bootstrap Overview"]
+        },
+        {
+          "Heading": "Java MVC Architecture",
+          "SubPoints": [
+            "Three-tier architecture",
+            "Introduction to MVC",
+            "MVC Architecture",
+            "Advantages of MVC",
+            "Building pages with MVC"
+          ]
+        },
+        {
+          "Heading": "Servlets",
+          "SubPoints": [
+            "What is a web application?",
+            "What is a Servlet?",
+            "Advantages of Servlet",
+            "Servlet Class",
+            "Servlet Lifecycle",
+            "Servlet Context Interface",
+            "Advantages of Servlet Context",
+            "Session management",
+            "Session Tracking Techniques",
+            "Cookies",
+            "Hidden field",
+            "URL Rewriting",
+            "HTTP Session",
+            "Building the first Servlet",
+            "Deploying the Servlet",
+            "Servlet Examples"
+          ]
+        },
+        {
+          "Heading": "JSP",
+          "SubPoints": [
+            "Introduction of JSP",
+            "JSP Architecture",
+            "JSP Processing",
+            "JSP Tag library",
+            "Core Tags",
+            "JSP Standard Tags",
+            "JSP Page Life Cycle",
+            "Creating the first Dynamic web page using JSP"
+          ]
+        },
+        {
+          "Heading": "Hibernate",
+          "SubPoints": [
+            "Introduction to Hibernate",
+            "Hibernate v/s JDBC",
+            "What is Object Relational Mapping",
+            "Hibernate Features",
+            "Application Architecture",
+            "Persistent Classes",
+            "Object States",
+            "Transient State",
+            "Persistent State",
+            "Detached State",
+            "Rules of Persistent Classes",
+            "Mapping Collections",
+            "Hibernate Mapping File Elements",
+            "One-to-one",
+            "One-to-many mapping",
+            "Many - one mapping",
+            "Many - to - many mapping",
+            "Hibernate Query Language",
+            "Basic HQL Operations",
+            "Advantages of HQL",
+            "Caching and Transactions",
+            "Types Of Cache",
+            "Hibernate Transaction Management",
+            "Transaction Interface In Hibernate",
+            "Hibernate with Web Applications"
+          ]
+        },
+        {
+          "Heading": "Spring",
+          "SubPoints": [
+            "Introduction of Spring Framework",
+            "Characteristics Of Spring",
+            "Spring Framework Architecture",
+            "Spring Framework Modules",
+            "Spring Platform Advantage",
+            "Spring bean Wiring",
+            "Dependency Injection",
+            "IoC Containers",
+            "Spring Bean Lifecycle",
+            "Beans Auto Wiring",
+            "Autowiring Limitations",
+            "Spring with database",
+            "Introduction to JDBC",
+            "Limitations of JDBC API",
+            "Spring JDBC Approaches",
+            "JdbcTemplate Class",
+            "JdbcTemplate Class Methods",
+            "Data Access Object (DAO)"
+          ]
+        },
+        {
+          "Heading": "Struts2",
+          "SubPoints": [
+            "Introduction to Struts",
+            "What is a Web Framework",
+            "Limitations of JSP/Servlet Coding",
+            "MVC1 v/s MVC2",
+            "What is Struts",
+            "Invasive v/s Non invasive Frameworks",
+            "Modules in Struts 2",
+            "Request Processing Lifecycle",
+            "Struts1 v/s Struts2",
+            "Advantages of Struts2",
+            "Struts2 MVC Architecture",
+            "Actions Commponent",
+            "Results & Result Types",
+            "The Value Stack",
+            "Action Classes",
+            "Introduction to Action Class",
+            "Characteristics Of Action Class",
+            "ActionSupport Class",
+            "Action Interface",
+            "Handling Application Requests",
+            "Handling Form Data",
+            "Struts2 Form",
+            "JavaBean Classv",
+            "Success Page",
+            "Configuring Struts2",
+            "Deployment Descriptors",
+            "The web.xml file",
+            "The struts.xml file",
+            "The struts-config.xml file",
+            "The struts. Properties file"
+          ]
+        },
+        {
+          "Heading": "SQL",
+          "SubPoints": [
+            "Introduction to RDBMS",
+            "Features of RDBMS",
+            "Introduction to SQL",
+            "Basic Terminologies",
+            "PLSQL Data Types",
+            "Primary Key v/s Foreign Key",
+            "The Unique Constraint",
+            "DDL Statements",
+            "DML Statements",
+            "Retrieving Records",
+            "Normalization",
+            "Functions in SQL",
+            "Handling Null Values",
+            "SQL Joins",
+            "Inner joins",
+            "Outer Joins",
+            "Right Joins"
+          ]
         }
       ]
     },
     "DotNet": {
-      "CourseFullName": ".NET Full Stack Development",
-      "CourseShortName": "DFS",
+      "CourseName": ".NET Full Stack Development",
       "CourseIncludes": {
         "Duration": "5 Months",
         "Prerequisites": [
@@ -39,36 +524,36 @@
           }
         ],
         "Topics": [
-            {
-                "Color":"bg-warning",
-                "Icons":"<i class='fa fa-code'></i>",
-                "Topic":"C#"
-            },
-            {
-                "Color":"bg-primary",
-                "Icons":"<i class='fa fa-database'></i>",
-                "Topic":"ADO.NET"
-            },
-            {
-                "Color":"bg-success",
-                "Icons":"<i class='fa fa-database'></i>",
-                "Topic":"SQL"
-            },
-            {
-                "Color":"bg-info",
-                "Icons":"<i class='fa fa-code'></i>",
-                "Topic":"ASP.NET"
-            },
-            {
-                "Color":"bg-danger",
-                "Icons":"<i class='bi bi-javascript'></i>",
-                "Topic":"AJAX"
-            },
-            {
-                "Color":"bg-secondary",
-                "Icons":"<i class='fa fa-code'></i>",
-                "Topic":"ASP.NET MVC"
-            }
+          {
+            "Color": "bg-warning",
+            "Icons": "<i class='fa fa-code'></i>",
+            "Topic": "C#"
+          },
+          {
+            "Color": "bg-primary",
+            "Icons": "<i class='fa fa-database'></i>",
+            "Topic": "ADO.NET"
+          },
+          {
+            "Color": "bg-success",
+            "Icons": "<i class='fa fa-database'></i>",
+            "Topic": "SQL"
+          },
+          {
+            "Color": "bg-info",
+            "Icons": "<i class='fa fa-code'></i>",
+            "Topic": "ASP.NET"
+          },
+          {
+            "Color": "bg-danger",
+            "Icons": "<i class='bi bi-javascript'></i>",
+            "Topic": "JQuery"
+          },
+          {
+            "Color": "bg-secondary",
+            "Icons": "<i class='fa fa-code'></i>",
+            "Topic": "ASP.NET MVC"
+          }
         ]
       },
       "CourseDetails": [
@@ -406,9 +891,10 @@
         }
       ]
     },
+
+
     "Angular": {
-      "CourseFullName": "Frontend Development with Angular",
-      "CourseShortName": "Angular",
+      "CourseName": "Frontend Development with Angular",
       "CourseIncludes": {
         "Duration": "3 Months",
         "Prerequisites": [
@@ -418,18 +904,844 @@
           {
             "P": "Familiarity with TypeScript is a plus but not mandatory."
           }
+        ],
+        "Topics": [
+          {
+            "Color": "bg-warning",
+            "Icons": "<i class='fa fa-code'></i>",
+            "Topic": "C#"
+          },
+          {
+            "Color": "bg-primary",
+            "Icons": "<i class='fa fa-database'></i>",
+            "Topic": "ADO.NET"
+          },
+          {
+            "Color": "bg-success",
+            "Icons": "<i class='fa fa-database'></i>",
+            "Topic": "SQL"
+          },
+          {
+            "Color": "bg-info",
+            "Icons": "<i class='fa fa-code'></i>",
+            "Topic": "ASP.NET"
+          },
+          {
+            "Color": "bg-danger",
+            "Icons": "<i class='bi bi-javascript'></i>",
+            "Topic": "JQuery"
+          },
+          {
+            "Color": "bg-secondary",
+            "Icons": "<i class='fa fa-code'></i>",
+            "Topic": "ASP.NET MVC"
+          }
         ]
       },
       "CourseDetails": [
         {
           "Heading": "Modern Angular Development",
-          "SubPoints": ["Covers Angular architecture, components, directives, services, routing, forms, and state management using RxJS and NgRx."]
+          "SubPoints": [
+            "Covers Angular architecture, components, directives, services, routing, forms, and state management using RxJS and NgRx."
+          ]
         },
         {
           "Heading": "Real-time Projects",
-          "SubPoints": ["Includes mini-projects and a final capstone project to apply Angular concepts in real-world scenarios."]
+          "SubPoints": [
+            "Includes mini-projects and a final capstone project to apply Angular concepts in real-world scenarios."
+          ]
         }
       ]
+    },
+
+
+    "CCNARoutingSwitching": {
+      "CourseName": "CCNA Routing & Switching",
+      "CourseIncludes": {
+        "Duration": "3 Months",
+        "Prerequisites": [
+          {
+            "P": "Basic knowledge of HTML, CSS, and JavaScript."
+          },
+          {
+            "P": "Familiarity with TypeScript is a plus but not mandatory."
+          }
+        ],
+        "Topics": [
+          {
+            "Color": "bg-warning",
+            "Icons": "<i class='fa fa-code'></i>",
+            "Topic": "C#"
+          },
+          {
+            "Color": "bg-primary",
+            "Icons": "<i class='fa fa-database'></i>",
+            "Topic": "ADO.NET"
+          },
+          {
+            "Color": "bg-success",
+            "Icons": "<i class='fa fa-database'></i>",
+            "Topic": "SQL"
+          },
+          {
+            "Color": "bg-info",
+            "Icons": "<i class='fa fa-code'></i>",
+            "Topic": "ASP.NET"
+          },
+          {
+            "Color": "bg-danger",
+            "Icons": "<i class='bi bi-javascript'></i>",
+            "Topic": "JQuery"
+          },
+          {
+            "Color": "bg-secondary",
+            "Icons": "<i class='fa fa-code'></i>",
+            "Topic": "ASP.NET MVC"
+          }
+        ]
+      },
+      "CourseDetails": [
+        {
+          "Heading": "Network Fundamentals",
+          "SubPoints": [
+            "Compare and contrast OSI and TCP/IP models",
+            "Compare and contrast TCP and UDP protocols",
+            "Describe the impact of infrastructure components in an enterprise network",
+            "Firewalls",
+            "Access points",
+            "Wireless controller",
+            "Describe the effects of cloud resources on enterprise network architecture",
+            "Traffic path to internal and external cloud services",
+            "Virtual services",
+            "Basic virtual network infrastructure",
+            "Compare and contrast collapsed core and three-tier architectures",
+            "Compare and contrast network topologies",
+            "Star",
+            "Mesh",
+            "Hybrid",
+            "Select the appropriate cabling type based on implementation requirements",
+            "Apply troubleshooting methodologies to resolve problems",
+            "Perform and document fault isolation",
+            "Resolve or escalate",
+            "Verify and monitor resolution",
+            "Configure, verify, and troubleshoot IPv4 addressing and subnetting",
+            "Compare and contrast IPv4 address types",
+            "Unicast",
+            "Broadcast",
+            "Multicast",
+            "Describe the need for private IPv4 addressing",
+            "Identify the appropriate IPv6 addressing scheme to satisfy addressing requirements in a LAN/WAN environment",
+            "Configure, verify, and troubleshoot IPv6 addressing",
+            "Configure and verify IPv6 Stateless Address Auto Configuration",
+            "Compare and contrast IPv6 address types",
+            "Global unicast",
+            "Unique local",
+            "Link local",
+            "Multicast",
+            "Modified EUI 64",
+            "Autoconfiguration",
+            "Anycast"
+          ]
+        },
+        {
+          "Heading": "LAN Switching Technologies",
+          "SubPoints": [
+            "Describe and verify switching concepts",
+            "MAC learning and aging",
+            "Frame switching",
+            "Frame flooding",
+            "MAC address table",
+            "Interpret Ethernet frame format",
+            "Troubleshoot interface and cable issues (collisions, errors, duplex, speed)",
+            "Configure, verify, and troubleshoot VLANs (normal/extended range) spanning multiple switches",
+            "Access ports (data and voice)",
+            "Default VLAN",
+            "Configure, verify, and troubleshoot inter switch connectivity",
+            "Trunk ports",
+            "Add and remove VLANs on a trunk",
+            "DTP, VTP (v1&v2), and 802.1Q",
+            "Native VLAN",
+            "Configure, verify, and troubleshoot STP protocols",
+            "STP mode (PVST+ and RPVST+)",
+            "STP root bridge selection",
+            "Configure, verify and troubleshoot STP related optional features",
+            "Port Fast",
+            "BPDU guard",
+            "Configure and verify Layer 2 protocols",
+            "Cisco Discovery Protocol",
+            "LLDP",
+            "Configure, verify, and troubleshoot (Layer 2/Layer 3) Ether Channel",
+            "Static",
+            "PAGP",
+            "LACP",
+            "Describe the benefits of switch stacking and chassis aggregation"
+          ]
+        },
+        {
+          "Heading": "Routing Technologies",
+          "SubPoints": [
+            "Describe the routing concepts",
+            "Packet handling along the path through a network",
+            "Forwarding decision based on route lookup",
+            "Frame rewrite",
+            "Interpret the components of a routing table",
+            "Prefix",
+            "Network mask",
+            "Next hop",
+            "Routing protocol code",
+            "Administrative distance",
+            "Metric",
+            "Gateway of last resort",
+            "Describe how a routing table is populated by different routing information sources",
+            "Admin distance",
+            "Configure, verify, and troubleshoot inter-VLAN routing",
+            "Router on a stick",
+            "SVI",
+            "Compare and contrast static routing and dynamic routing",
+            "Compare and contrast distance vector and link state routing protocols",
+            "Compare and contrast interior and exterior routing protocols",
+            "Configure, verify, and troubleshoot IPv4 and IPv6 static routing",
+            "Default route",
+            "Network route",
+            "Host route",
+            "Floating static",
+            "Configure, verify, and troubleshoot single area and multi-area OSPFv2 for IPv4"
+          ]
+        },
+        {
+          "Heading": "WAN Technologies",
+          "SubPoints": [
+            "Configure, verify, and troubleshoot single area and multi-area OSPFv3 for IPv6",
+            "Configure, verify, and troubleshoot EIGRP for IPV4",
+            "Configure, verify, and troubleshoot EIGRP for IPv6",
+            "Configure, verify, and troubleshoot RIPv2 for IPv4",
+            "Troubleshoot basic Layer 3 end-to-end connectivity issues",
+            "Configure and verify PPP and MLPPP on WAN interfaces using local authentication",
+            "Configure, verify, and troubleshoot PPPoE client-side interfaces using local authentication",
+            "Configure, verify, and troubleshoot GRE tunnel connectivity",
+            "Describe WAN topology options",
+            "Point-to-point",
+            "Hub and spoke",
+            "Full mesh",
+            "Single vs dual-homed",
+            "Describe WAN access connectivity options",
+            "MPLS",
+            "Metro Ethernet",
+            "Broadband PPPoE",
+            "Internet VPN (DMVPN, site-to-site VPN, client VPN)",
+            "Configure and verify single-homed branch connectivity using eBGP IPv4",
+            "Describe basic QoS concepts",
+            "Marking",
+            "Device trust",
+            "Prioritization",
+            "Voice",
+            "Video",
+            "Data",
+            "Shaping",
+            "Policing",
+            "Congestion management"
+          ]
+        },
+        {
+          "Heading": "Infrastructure Services",
+          "SubPoints": [
+            "Describe DNS lookup operation",
+            "Troubleshoot client connectivity issues involving DNS",
+            "Configure and verify DHCP on a router",
+            "Server",
+            "Relay",
+            "Client 5.3.d TFTP, DNS, and gateway options",
+            "Troubleshoot client- and router-based DHCP connectivity issues",
+            "Configure, verify, and troubleshoot basic HSRP",
+            "Priority",
+            "Preemption",
+            "Version",
+            "Configure, verify, and troubleshoot inside source NAT",
+            "Page Static",
+            "Pool",
+            "PAT",
+            "Configure and verify NTP operating in a client/server mode"
+          ]
+        },
+        {
+          "Heading": "Infrastructure Security",
+          "SubPoints": [
+            "Configure, verify, and troubleshoot port security",
+            "Static",
+            "Dynamic",
+            "Sticky",
+            "Max MAC addresses",
+            "Violation actions",
+            "Err-disable recovery",
+            "Describe common access layer threat mitigation techniques",
+            "1x",
+            "DHCP snooping",
+            "Non default native VLAN",
+            "Configure, verify, and troubleshoot IPv4 and IPv6 access list for traffic filtering",
+            "Standard",
+            "Extended",
+            "Named",
+            "Verify ACLs using the APIC-EM Path Trace ACL Analysis tool",
+            "Configure, verify, and troubleshoot basic device hardening",
+            "Local authentication",
+            "Secure password",
+            "Access to device",
+            "Source address",
+            "Telnet/SSH",
+            "Login banner",
+            "Describe device security using AAA with TACACS+ and RADIUS"
+          ]
+        },
+        {
+          "Heading": "Infrastructure Management",
+          "SubPoints": [
+            "Configure and verify device-monitoring protocols",
+            "SNMPv2",
+            "SNMPv3",
+            "Syslog",
+            "Troubleshoot network connectivity issues using ICMP echo-based IP SLA",
+            "Configure and verify device management",
+            "Backup and restore device configuration",
+            "Using Cisco Discovery Protocol or LLDP for device discovery",
+            "Licensing",
+            "Logging",
+            "Timezone",
+            "Loopback",
+            "Configure and verify initial device configuration",
+            "Perform device maintenance",
+            "Cisco IOS upgrades and recovery (SCP, FTP, TFTP, and MD5 verify)",
+            "Password recovery and configuration register",
+            "File system management",
+            "Use Cisco IOS tools to troubleshoot and resolve problems",
+            "Ping and traceroute with extended option",
+            "Terminal monitor",
+            "Log events",
+            "Local SPAN",
+            "Describe network programmability in enterprise network architecture",
+            "Function of a controller",
+            "Separation of control plane and data plane",
+            "Northbound and southbound APIs"
+          ]
+        }
+      ]
+    },
+    "VMWare": {
+      "CourseName": "VMWare",
+      "CourseIncludes": {
+        "Duration": "3 Months",
+        "Prerequisites": [
+          {
+            "P": "Basic knowledge of HTML, CSS, and JavaScript."
+          },
+          {
+            "P": "Familiarity with TypeScript is a plus but not mandatory."
+          }
+        ],
+        "Topics": [
+          {
+            "Color": "bg-warning",
+            "Icons": "<i class='fa fa-code'></i>",
+            "Topic": "C#"
+          },
+          {
+            "Color": "bg-primary",
+            "Icons": "<i class='fa fa-database'></i>",
+            "Topic": "ADO.NET"
+          },
+          {
+            "Color": "bg-success",
+            "Icons": "<i class='fa fa-database'></i>",
+            "Topic": "SQL"
+          },
+          {
+            "Color": "bg-info",
+            "Icons": "<i class='fa fa-code'></i>",
+            "Topic": "ASP.NET"
+          },
+          {
+            "Color": "bg-danger",
+            "Icons": "<i class='bi bi-javascript'></i>",
+            "Topic": "JQuery"
+          },
+          {
+            "Color": "bg-secondary",
+            "Icons": "<i class='fa fa-code'></i>",
+            "Topic": "ASP.NET MVC"
+          }
+        ]
+      },
+      "CourseDetails": [
+        {
+          "Heading": "VMware Course Syllabus",
+          "SubPoints": [
+            "What is Virtualization?",
+            "Introduction to VMware vSphere Hypervisor ESXi 6.5 and vSphere vCenter",
+            "Deploy an ESXi host and configure basic settings",
+            "Installing ESXi",
+            "Configuration of ESXi from DCUI",
+            "Connect to ESXi host using",
+            "Configure ESXi host using vSphere client",
+            "Configure host setting: IP addressing, DNS, Licensing, Time Synchronization, etc.",
+            "Creating Virtual Machines",
+            "Introduce virtual machines, virtual machine hardware, and virtual machine files",
+            "Identify the files that make up a virtual machine",
+            "Discuss the latest virtual machine hardware and its features",
+            "Create VM and install guest OS",
+            "Explain the importance of VMware Tools",
+            "Deploy and configure virtual machines and templates",
+            "Identify the virtual machine disk format",
+            "Using vCenter Server",
+            "Deploy and configure vCenter Server Appliance",
+            "Use vSphere Web Client",
+            "Back up and restore vCenter Server",
+            "Examine vCenter Server permissions and roles",
+            "Manage vCenter Server inventory objects and licenses",
+            "Access and navigate the new vSphere clients",
+            "Virtual Machine Management",
+            "Use templates and cloning to deploy new virtual machines",
+            "Modify and manage virtual machines",
+            "Clone a virtual machine",
+            "Upgrade virtual machine hardware to version 12",
+            "Remove virtual machines from the vCenter Server inventory and datastore",
+            "Customize a new virtual machine using customization specification files",
+            "Perform vSphere vMotion and vSphere Storage vMotion migrations",
+            "Create and manage virtual machine snapshots",
+            "Create, clone, and export vApps",
+            "Introduce the types of content libraries and how to deploy and use them",
+            "Configuring and Managing Virtual Networks",
+            "Describe, create, and manage standard switches",
+            "Configure virtual switch security and load-balancing policies",
+            "Contrast and compare vSphere distributed switches and standard switches",
+            "Describe the virtual switch connection types",
+            "Configuring and Managing Virtual Storage",
+            "Introduce storage protocols and storage device types",
+            "Discuss ESXi hosts using iSCSI, NFS, and Fibre Channel storage",
+            "Create and manage VMFS and NFS datastores",
+            "Describe the new features of VMFS 6.5",
+            "Introduce vSAN",
+            "Describe guest file encryption",
+            "Resource Management and Monitoring",
+            "Introduce virtual CPU and memory concepts",
+            "Explain virtual memory reclamation techniques",
+            "Describe virtual machine overcommitment and resource competition",
+            "Configure and manage resource pools",
+            "Describe methods for optimizing CPU and memory usage",
+            "Use various tools to monitor resource usage",
+            "Create and use alarms to report certain conditions or events",
+            "Describe and deploy resource pools",
+            "Set reservations, limits, and shares",
+            "Describe expandable reservations",
+            "Schedule changes to resource settings",
+            "Create, clone, and export vApps",
+            "Use vCenter Server performance charts and esxtop to analyze vSphere performance",
+            "vSphere HA, vSphere Fault Tolerance, and Protecting Data",
+            "Explain the vSphere HA architecture",
+            "Configure and manage a vSphere HA cluster",
+            "Describe vSphere HA heartbeat networks and datastore heartbeats",
+            "Introduce vSphere Fault Tolerance",
+            "Enable vSphere Fault Tolerance on virtual machines",
+            "Support vSphere Fault Tolerance interoperability with vSAN",
+            "Examine enhanced consolidation of vSphere Fault Tolerance virtual machines",
+            "Introduce vSphere Replication",
+            "Use vSphere Data Protection to back up and restore data",
+            "vSphere DRS",
+            "Describe the functions and benefits of a vSphere DRS cluster",
+            "Configure and manage a vSphere DRS cluster",
+            "Work with affinity and anti-affinity rules",
+            "Describe the new capabilities for what-if analysis and proactive vSphere DRS",
+            "Highlight the evolution of vSphere DRS using predictive data from VMware vRealize Operations Manager",
+            "Perform preemptive actions to prepare for CPU or memory changes",
+            "Describe the vCenter Server embedded vSphere Update Manager, VMware vSphere ESXi Image Builder CLI, and VMware vSphere Auto Deploy capabilities",
+            "Use vSphere HA and vSphere DRS together for business continuity",
+            "vSphere Update Manager",
+            "Describe the new vSphere Update Manager architecture, components, and capabilities",
+            "Use vSphere Update Manager to manage ESXi, virtual machine, and vApp patching",
+            "Install vSphere Update Manager and the vSphere Update Manager plug-in",
+            "Create a patch baseline",
+            "Attach a Baseline and Scan for Updates",
+            "Stage the Patches onto the ESXi Hosts",
+            "Scan and remediate the hosts"
+          ]
+        }
+      ]
+    },
+
+
+
+    "Android": {
+      "CourseName": "Android",
+      "CourseIncludes": {
+        "Duration": "3 Months",
+        "Prerequisites": [
+          {
+            "P": "Basic knowledge of HTML, CSS, and JavaScript."
+          },
+          {
+            "P": "Familiarity with TypeScript is a plus but not mandatory."
+          }
+        ],
+        "Topics": [
+          {
+            "Color": "bg-warning",
+            "Icons": "<i class='fa fa-code'></i>",
+            "Topic": "C#"
+          },
+          {
+            "Color": "bg-primary",
+            "Icons": "<i class='fa fa-database'></i>",
+            "Topic": "ADO.NET"
+          },
+          {
+            "Color": "bg-success",
+            "Icons": "<i class='fa fa-database'></i>",
+            "Topic": "SQL"
+          },
+          {
+            "Color": "bg-info",
+            "Icons": "<i class='fa fa-code'></i>",
+            "Topic": "ASP.NET"
+          },
+          {
+            "Color": "bg-danger",
+            "Icons": "<i class='bi bi-javascript'></i>",
+            "Topic": "JQuery"
+          },
+          {
+            "Color": "bg-secondary",
+            "Icons": "<i class='fa fa-code'></i>",
+            "Topic": "ASP.NET MVC"
+          }
+        ]
+      },
+      "CourseDetails": [
+        [
+          {
+            "Heading": "Android Overview and History",
+            "SubPoints": [
+              "How it all got started",
+              "Why Android is different (and important) Android Stack",
+              "Overview of the stack",
+              "Linux kernel",
+              "Native libraries",
+              "Dalvik VM",
+              "Application framework",
+              "Activities",
+              "Services",
+              "Broadcast Receivers",
+              "Content Provider"
+            ]
+          },
+          {
+            "Heading": "SDK Overview",
+            "SubPoints": ["Platforms", "Tools", "Versions"]
+          },
+          {
+            "Heading": "Hello World App",
+            "SubPoints": [
+              "Creating your first project",
+              "The manifest file",
+              "Layout resource",
+              "Running your app on Emulator"
+            ]
+          },
+          {
+            "Heading": "Notifications",
+            "SubPoints": [
+              "Toast, Custom Toast",
+              "Dialogs",
+              "Status bar Notifications"
+            ]
+          },
+          {
+            "Heading": "Building UI with Activities",
+            "SubPoints": [
+              "Activities",
+              "Views, layouts and Common UI components",
+              "Creating UI through code and XML",
+              "Activity lifecycle",
+              "Intents",
+              "Communicating data among Activities"
+            ]
+          },
+          {
+            "Heading": "Multithreading",
+            "SubPoints": [
+              "Using Java Multithreading classes",
+              "AsyncTask",
+              "Handler",
+              "Post",
+              "Writing an animated game"
+            ]
+          },
+          {
+            "Heading": "Advanced UI",
+            "SubPoints": [
+              "GridView, ListView, Spinner",
+              "Adapters, Custom Adapters",
+              "Complex UI components",
+              "Building UI for performance",
+              "Menus",
+              "Creating custom and compound Views"
+            ]
+          },
+          {
+            "Heading": "Styles And Themes",
+            "SubPoints": [
+              "Creating and Applying simple Style",
+              "Inheriting built-in Style and User defined style",
+              "Using Styles as themes"
+            ]
+          },
+          {
+            "Heading": "Resources and Assets",
+            "SubPoints": [
+              "Android Resource",
+              "Using resources in XML and code",
+              "Localization",
+              "Handling Runtime configuration changes"
+            ]
+          },
+          {
+            "Heading": "Fragments",
+            "SubPoints": [
+              "Introduction to Fragments",
+              "How to use fragments through code and XML",
+              "Fragment lifecycle",
+              "Creating fragments with and without UI",
+              "Inter fragment data communication",
+              "Using built-in fragment"
+            ]
+          },
+          {
+            "Heading": "Intent, Intent Filters and Broadcast Receivers",
+            "SubPoints": [
+              "Role of filters",
+              "Intent-matching rules",
+              "Filters in your manifest",
+              "Filters in dynamic Broadcast Receivers",
+              "Creating Broadcast receiver",
+              "Receiving System Broadcast",
+              "Understanding Broadcast action, category and data",
+              "Registering Broadcast receiver through code and XML",
+              "Sending Broadcast"
+            ]
+          },
+          {
+            "Heading": "Data Storage",
+            "SubPoints": [
+              "Shared Preferences",
+              "Android File System",
+              "Internal storage",
+              "External storage",
+              "SQLite - Introducing SQLite, SQLiteOpenHelper and creating a database, Opening and closing a database, Working with cursors, Inserts, updates, and deletes"
+            ]
+          },
+          {
+            "Heading": "Content Providers",
+            "SubPoints": [
+              "Accessing built-in content providers",
+              "Content provider MIME types",
+              "Searching for content",
+              "Adding, changing, and removing content",
+              "Creating content provider",
+              "Working with content files"
+            ]
+          },
+          {
+            "Heading": "Services",
+            "SubPoints": [
+              "Overview of services in Android",
+              "Implementing a Service",
+              "Service lifecycle",
+              "Inter Process Communication (AIDL Services)"
+            ]
+          },
+          {
+            "Heading": "Multimedia in Android",
+            "SubPoints": [
+              "Multimedia Supported audio formats",
+              "Simple media playback",
+              "Supported video formats",
+              "Simple video playback"
+            ]
+          },
+          {
+            "Heading": "Location Based Services and Google Maps",
+            "SubPoints": [
+              "Using Location Based Services",
+              "Finding current location and listening for changes in location",
+              "Proximity alerts",
+              "Working with Google Maps - Showing google map in an Activity, Using Map Fragment and MapView, Customizing maps, Working with map marker, Custom Markers and Info Windows, Drawing on the map, Interacting with the map, Geocoder"
+            ]
+          },
+          {
+            "Heading": "Web Services and WebView",
+            "SubPoints": [
+              "Understanding HTTP request response model",
+              "Consuming web services",
+              "Receiving HTTP Response (XML, JSON)",
+              "Parsing JSON and XML",
+              "Using WebView"
+            ]
+          },
+          {
+            "Heading": "Telephony Services",
+            "SubPoints": [
+              "Making calls",
+              "Monitoring data connectivity and activity",
+              "Accessing phone properties and status",
+              "Controlling the phone",
+              "Sending messages"
+            ]
+          },
+          {
+            "Heading": "Camera",
+            "SubPoints": [
+              "Taking pictures",
+              "Media Recorder",
+              "Rendering previews"
+            ]
+          },
+          {
+            "Heading": "Bluetooth",
+            "SubPoints": [
+              "Controlling local Bluetooth device",
+              "Discovering and bonding with Bluetooth devices",
+              "Managing Bluetooth connections",
+              "Communicating with Bluetooth"
+            ]
+          },
+          {
+            "Heading": "Sensors",
+            "SubPoints": [
+              "How Sensors work",
+              "Using Orientation and Accelerometer sensors",
+              "Best practices for performance"
+            ]
+          },
+          {
+            "Heading": "Firebase",
+            "SubPoints": [
+              "Introduction to Firebase",
+              "Authentication Using Firebase",
+              "Firebase Modules Introduction",
+              "Operation on Firebase",
+              "Firebase Notification"
+            ]
+          },
+          {
+            "Heading": "Third Party Libraries",
+            "SubPoints": [
+              "Volley",
+              "Picasso",
+              "Universal Image Loader",
+              "Third Party Design Libraries"
+            ]
+          },
+          {
+            "Heading": "WiFi",
+            "SubPoints": [
+              "Monitoring and managing Internet connectivity",
+              "Managing active connections",
+              "Managing WiFi networks"
+            ]
+          },
+          {
+            "Heading": "Google AdMob",
+            "SubPoints": [
+              "Google AdMob Introduction",
+              "Ad Types",
+              "Ad Integration"
+            ]
+          },
+          {
+            "Heading": "Android Application Deployment",
+            "SubPoints": [
+              "Android Application Deployment on device with Linux and Windows",
+              "Android Application Deployment on Android Market"
+            ]
+          }
+        ]
+      ]
+    },
+
+    "RHCSA": {
+  "CourseName": "Red Hat Certified System Administrator (RHCSA)",
+  "CourseIncludes": {
+    "Duration": "3 Months",
+    "Prerequisites": [
+      {
+        "P": "Basic understanding of operating systems and networking concepts."
+      },
+      {
+        "P": "Familiarity with basic command line usage is beneficial but not mandatory."
+      }
+    ],
+    "Topics": [
+      {
+        "Color": "bg-danger",
+        "Icons": "<i class='fa fa-terminal'></i>",
+        "Topic": "Basic Unix Commands"
+      },
+      {
+        "Color": "bg-warning",
+        "Icons": "<i class='fa fa-edit'></i>",
+        "Topic": "Vim Editor"
+      },
+      {
+        "Color": "bg-primary",
+        "Icons": "<i class='fa fa-folder-open'></i>",
+        "Topic": "File System Hierarchy"
+      },
+      {
+        "Color": "bg-success",
+        "Icons": "<i class='fa fa-users'></i>",
+        "Topic": "User & Group Management"
+      },
+      {
+        "Color": "bg-info",
+        "Icons": "<i class='fa fa-hdd'></i>",
+        "Topic": "LVM & Disk Management"
+      },
+      {
+        "Color": "bg-secondary",
+        "Icons": "<i class='fa fa-network-wired'></i>",
+        "Topic": "Networking & Firewall"
+      }
+    ]
+  },
+  "CourseDetails": [
+    {
+      "Heading": "RHCSA Course Syllabus",
+      "SubPoints": [
+        "Basic Unix commands - Files and directory handling",
+        "Using vim editor",
+        "Understanding Linux file systems hierarchy",
+        "Manage local Linux users and groups, and local password policies",
+        "File systems Permissions and Group Collaboration",
+        "Using access control lists (ACL)",
+        "Disk Management – fdisk and gdisk",
+        "Manage logical volume management (LVM) storage",
+        "Schedule future Linux tasks",
+        "Control and monitor network services and system daemons using systemd",
+        "Control and troubleshoot the Red Hat Enterprise Linux boot process",
+        "Manage Red Hat Enterprise Linux networking: Configure basic IPv4 settings",
+        "Install and manage software packages from Red Hat and yum package repositories",
+        "Configure and secure OpenSSH service",
+        "Configure a basic local firewall",
+        "Archive files and copy them from one system to another",
+        "Locate and interpret relevant system log files for troubleshooting purposes",
+        "Mounting network file systems: NFS and server message block (SMB) shares from network file servers"
+      ]
     }
+  ]
+}
+
+
+   
+    
+
+
+    
   }
 }
