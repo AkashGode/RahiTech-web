@@ -2,7 +2,6 @@
   "AllCourseDetails": {
     "Java": {
       "CourseName": "Java Full Stack Development",
-      "CourseName": "Java Full Stack Development",
       "CourseIncludes": {
         "Duration": "6 Months",
         "Prerequisites": [
@@ -11,38 +10,6 @@
           },
           {
             "P": "Basic computer knowledge will be advantage."
-          }
-        ],
-        "Topics": [
-          {
-            "Color": "bg-secondary",
-            "Icons": "<i class='fa fa-code'></i>",
-            "Topic": "Java"
-          },
-          {
-            "Color": "bg-primary fs-6",
-            "Icons": "<span>{ OOPS }</span>",
-            "Topic": "OOPS"
-          },
-          {
-            "Color": "bg-danger",
-            "Icons": "<i class='bi bi-javascript'></i>",
-            "Topic": "Frontend Development"
-          },
-          {
-            "Color": "bg-warning",
-            "Icons": "<img src='assets/images/icons/hibernate-logo.png'>",
-            "Topic": "Hibernate"
-          },
-          {
-            "Color": "bg-success",
-            "Icons": "<img src='assets/images/icons/spring-boot.png'>",
-            "Topic": "Spring"
-          },
-          {
-            "Color": "bg-info",
-            "Icons": "<i class='fa fa-database'></i>",
-            "Topic": "SQL"
           }
         ],
         "Topics": [
@@ -1005,7 +972,6 @@
     },
     "DotNet": {
       "CourseName": ".NET Full Stack Development",
-      "CourseName": ".NET Full Stack Development",
       "CourseIncludes": {
         "Duration": "5 Months",
         "Prerequisites": [
@@ -1418,7 +1384,6 @@
 
     "Angular": {
       "CourseName": "Frontend Development with Angular",
-      "CourseName": "Frontend Development with Angular",
       "CourseIncludes": {
         "Duration": "3 Months",
         "Prerequisites": [
@@ -1427,38 +1392,6 @@
           },
           {
             "P": "Familiarity with TypeScript is a plus but not mandatory."
-          }
-        ],
-        "Topics": [
-          {
-            "Color": "bg-warning",
-            "Icons": "<i class='fa fa-code'></i>",
-            "Topic": "C#"
-          },
-          {
-            "Color": "bg-primary",
-            "Icons": "<i class='fa fa-database'></i>",
-            "Topic": "ADO.NET"
-          },
-          {
-            "Color": "bg-success",
-            "Icons": "<i class='fa fa-database'></i>",
-            "Topic": "SQL"
-          },
-          {
-            "Color": "bg-info",
-            "Icons": "<i class='fa fa-code'></i>",
-            "Topic": "ASP.NET"
-          },
-          {
-            "Color": "bg-danger",
-            "Icons": "<i class='bi bi-javascript'></i>",
-            "Topic": "JQuery"
-          },
-          {
-            "Color": "bg-secondary",
-            "Icons": "<i class='fa fa-code'></i>",
-            "Topic": "ASP.NET MVC"
           }
         ],
         "Topics": [
