@@ -213,8 +213,6 @@
           ]
         },
         {
-          "Heading": "Java Array",
-          "SubPoints": ["Java Array"]
           "Heading": "Java Language Importance",
           "SubPoints": [
             "Syntactically Simple",
@@ -676,6 +674,8 @@
             "Outer Joins",
             "Right Joins"
           ]
+        },
+        {
           "Heading": "Java String",
           "SubPoints": [
             "Immutable String",
@@ -983,36 +983,6 @@
           }
         ],
         "Topics": [
-          {
-            "Color": "bg-warning",
-            "Icons": "<i class='fa fa-code'></i>",
-            "Topic": "C#"
-          },
-          {
-            "Color": "bg-primary",
-            "Icons": "<i class='fa fa-database'></i>",
-            "Topic": "ADO.NET"
-          },
-          {
-            "Color": "bg-success",
-            "Icons": "<i class='fa fa-database'></i>",
-            "Topic": "SQL"
-          },
-          {
-            "Color": "bg-info",
-            "Icons": "<i class='fa fa-code'></i>",
-            "Topic": "ASP.NET"
-          },
-          {
-            "Color": "bg-danger",
-            "Icons": "<i class='bi bi-javascript'></i>",
-            "Topic": "JQuery"
-          },
-          {
-            "Color": "bg-secondary",
-            "Icons": "<i class='fa fa-code'></i>",
-            "Topic": "ASP.NET MVC"
-          }
           {
             "Color": "bg-warning",
             "Icons": "<i class='fa fa-code'></i>",
@@ -1380,8 +1350,6 @@
         }
       ]
     },
-
-
     "Angular": {
       "CourseName": "Frontend Development with Angular",
       "CourseIncludes": {
@@ -1433,15 +1401,9 @@
           "SubPoints": [
             "Covers Angular architecture, components, directives, services, routing, forms, and state management using RxJS and NgRx."
           ]
-          "SubPoints": [
-            "Covers Angular architecture, components, directives, services, routing, forms, and state management using RxJS and NgRx."
-          ]
         },
         {
           "Heading": "Real-time Projects",
-          "SubPoints": [
-            "Includes mini-projects and a final capstone project to apply Angular concepts in real-world scenarios."
-          ]
           "SubPoints": [
             "Includes mini-projects and a final capstone project to apply Angular concepts in real-world scenarios."
           ]
