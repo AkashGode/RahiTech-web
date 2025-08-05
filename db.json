@@ -549,7 +549,7 @@
           {
             "Color": "bg-danger",
             "Icons": "<i class='bi bi-javascript'></i>",
-            "Topic": "AJAX"
+            "Topic": "JQuery"
           },
           {
             "Color": "bg-secondary",
