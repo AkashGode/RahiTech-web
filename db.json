@@ -221,6 +221,172 @@
           ]
         },
         {
+          "Heading": "Java Language Importance",
+          "SubPoints": [
+            "Syntactically Simple",
+            "Object Oriented",
+            "Platform Independent",
+            "Dynamic Memory Management",
+            "Compiled / Interpreted approach",
+            "Robust",
+            "Security",
+            "Dynamic Linking",
+            "Multi-Threading",
+            "Built-in Networking",
+            "Basic knowledge of HTML, CSS, Javascript or any programming language"
+          ]
+        },
+        {
+          "Heading": "Programming Languages",
+          "SubPoints": [
+            "Programming Languages",
+            "Object Oriented Programming",
+            "Classes & Objects",
+            "Pillars Of Object Oriented Programming",
+            "OOPS concepts and terminology",
+            "Encapsulation & Examples",
+            "Abstraction & Examples",
+            "Inheritance",
+            "Advantages of OOPS"
+          ]
+        },
+        {
+          "Heading": "What is Java",
+          "SubPoints": [
+            "History of Java",
+            "Features of Java",
+            "What is Java?",
+            "Execution Model Of Java",
+            "Bytecode",
+            "How to Get Java.?",
+            "A First Java Program",
+            "Compiling and Interpreting Applications",
+            "The JDK Directory Structure",
+            "Using Eclipse"
+          ]
+        },
+        {
+          "Heading": "Data types and Variables",
+          "SubPoints": [
+            "What are data types?",
+            "Primitive Datatypes & Declarations",
+            "Variables & Types",
+            "Numeric & Character Literals",
+            "String formatting and Parsing",
+            "String Literals",
+            "Arrays, Non-Primitive Datatypes",
+            "Casting & Type Casting",
+            "Widening & Narrowing Conversions",
+            "The Dot Operator"
+          ]
+        },
+        {
+          "Heading": "Methods",
+          "SubPoints": [
+            "What are Methods?",
+            "Method Structure",
+            "Declaration Of Methods",
+            "Calling Of Methods",
+            "Defining Methods",
+            "Method Parameters Scope",
+            "Why static methods?"
+          ]
+        },
+        {
+          "Heading": "Operators and Expressions",
+          "SubPoints": [
+            "Expressions",
+            "Assignment Operator",
+            "Arithmetic Operators",
+            "Relational Operators",
+            "Logical Operators",
+            "Increment and Decrement Operators",
+            "Operate-Assign Operators (+=, etc.)",
+            "The Conditional Operator",
+            "Operator Precedence",
+            "The Cast Operator"
+          ]
+        },
+        {
+          "Heading": "Control Statements",
+          "SubPoints": [
+            "Java If-else",
+            "Java Switch",
+            "Java For Loop",
+            "Java While Loop",
+            "Java Do While Loop",
+            "Java Break",
+            "Java Continue",
+            "Java Comments",
+            "Java Programs"
+          ]
+        },
+        {
+          "Heading": "Java Object Class",
+          "SubPoints": [
+            "Java OOPs Concepts",
+            "Naming Convention",
+            "Object and Class",
+            "Constructor",
+            "static keyword",
+            "this keyword"
+          ]
+        },
+        {
+          "Heading": "Java Inheritance",
+          "SubPoints": [
+            "Inheritance(IS-A)",
+            "Single Inheritance",
+            "Multilevel Inheritance",
+            "Hierarchical Inheritance",
+            "Aggregation(HAS-A)"
+          ]
+        },
+        {
+          "Heading": "Java Polymorphism",
+          "SubPoints": [
+            "Method Overloading",
+            "Method Overriding",
+            "Covariant Return Type",
+            "super keyword",
+            "Instance Initializer block",
+            "final keyword",
+            "Runtime Polymorphism",
+            "Dynamic Binding",
+            "instance Of operator"
+          ]
+        },
+        {
+          "Heading": "Java Abstraction",
+          "SubPoints": ["Abstract class", "Interface", "Abstract vs Interface"]
+        },
+        {
+          "Heading": "Java Encapsulation",
+          "SubPoints": ["Package", "Access Modifiers", "Encapsulation"]
+        },
+        {
+          "Heading": "Interfaces and Abstract Classes",
+          "SubPoints": [
+            "What is an Interface",
+            "Defining Interfaces",
+            "Separating Interface and Implementation",
+            "Implementing and Extending Interfaces",
+            "Abstract Classes"
+          ]
+        },
+        {
+          "Heading": "Packages",
+          "SubPoints": [
+            "What is a Package?",
+            "Advantages of using a Package",
+            "Types Of Packages",
+            "Naming Convention",
+            "Steps For Creating Packages",
+            "Defining Packages",
+            "Package Scope"
+          ]
+        },
+        {
           "Heading": "Java Array",
           "SubPoints": [
             "Java Array"
@@ -404,6 +570,142 @@
             "Building the first Servlet",
             "Deploying the Servlet",
             "Servlet Examples"
+          ]
+        },
+        {
+          "Heading": "JSP",
+          "SubPoints": [
+            "Introduction of JSP",
+            "JSP Architecture",
+            "JSP Processing",
+            "JSP Tag library",
+            "Core Tags",
+            "JSP Standard Tags",
+            "JSP Page Life Cycle",
+            "Creating the first Dynamic web page using JSP"
+          ]
+        },
+        {
+          "Heading": "Hibernate",
+          "SubPoints": [
+            "Introduction to Hibernate",
+            "Hibernate v/s JDBC",
+            "What is Object Relational Mapping",
+            "Hibernate Features",
+            "Application Architecture",
+            "Persistent Classes",
+            "Object States",
+            "Transient State",
+            "Persistent State",
+            "Detached State",
+            "Rules of Persistent Classes",
+            "Mapping Collections",
+            "Hibernate Mapping File Elements",
+            "One-to-one",
+            "One-to-many mapping",
+            "Many - one mapping",
+            "Many - to - many mapping",
+            "Hibernate Query Language",
+            "Basic HQL Operations",
+            "Advantages of HQL",
+            "Caching and Transactions",
+            "Types Of Cache",
+            "Hibernate Transaction Management",
+            "Transaction Interface In Hibernate",
+            "Hibernate with Web Applications"
+          ]
+        },
+        {
+          "Heading": "Spring",
+          "SubPoints": [
+            "Introduction of Spring Framework",
+            "Characteristics Of Spring",
+            "Spring Framework Architecture",
+            "Spring Framework Modules",
+            "Spring Platform Advantage",
+            "Spring bean Wiring",
+            "Dependency Injection",
+            "IoC Containers",
+            "Spring Bean Lifecycle",
+            "Beans Auto Wiring",
+            "Autowiring Limitations",
+            "Spring with database",
+            "Introduction to JDBC",
+            "Limitations of JDBC API",
+            "Spring JDBC Approaches",
+            "JdbcTemplate Class",
+            "JdbcTemplate Class Methods",
+            "Data Access Object (DAO)"
+          ]
+        },
+        {
+          "Heading": "Struts2",
+          "SubPoints": [
+            "Introduction to Struts",
+            "What is a Web Framework",
+            "Limitations of JSP/Servlet Coding",
+            "MVC1 v/s MVC2",
+            "What is Struts",
+            "Invasive v/s Non invasive Frameworks",
+            "Modules in Struts 2",
+            "Request Processing Lifecycle",
+            "Struts1 v/s Struts2",
+            "Advantages of Struts2",
+            "Struts2 MVC Architecture",
+            "Actions Commponent",
+            "Results & Result Types",
+            "The Value Stack",
+            "Action Classes",
+            "Introduction to Action Class",
+            "Characteristics Of Action Class",
+            "ActionSupport Class",
+            "Action Interface",
+            "Handling Application Requests",
+            "Handling Form Data",
+            "Struts2 Form",
+            "JavaBean Classv",
+            "Success Page",
+            "Configuring Struts2",
+            "Deployment Descriptors",
+            "The web.xml file",
+            "The struts.xml file",
+            "The struts-config.xml file",
+            "The struts. Properties file"
+          ]
+        },
+        {
+          "Heading": "SQL",
+          "SubPoints": [
+            "Introduction to RDBMS",
+            "Features of RDBMS",
+            "Introduction to SQL",
+            "Basic Terminologies",
+            "PLSQL Data Types",
+            "Primary Key v/s Foreign Key",
+            "The Unique Constraint",
+            "DDL Statements",
+            "DML Statements",
+            "Retrieving Records",
+            "Normalization",
+            "Functions in SQL",
+            "Handling Null Values",
+            "SQL Joins",
+            "Inner joins",
+            "Outer Joins",
+            "Right Joins"
+          ]
+        },
+        {
+          "Heading": "Java String",
+          "SubPoints": [
+            "Immutable String",
+            "String Comparison",
+            "String Concatenation",
+            "Substring",
+            "Methods of String class",
+            "StringBuffer class",
+            "String vs StringBuffer",
+            "toString method"
           ]
         },
         {
